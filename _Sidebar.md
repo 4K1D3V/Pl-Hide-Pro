@@ -4,6 +4,7 @@
 
 * [Home](Home)
 * [FAQ's](FAQ's)
+* [Groups](Groups)
 * [Commands](Commands)
 
 ***
