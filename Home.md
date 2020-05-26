@@ -10,4 +10,5 @@ There are a couple of hard dependencies:
 * Spigot/Paper [Protocol Lib](https://www.spigotmc.org/resources/1997/)
 * Bungeecord/Waterfall [Protocolize](https://www.spigotmc.org/resources/63778/)
 
-Whilst it's not mandatory it's highly suggested that you get a permissions plugin for example Luckperms or PermissionsEX to unlock the full potential of the plugin.<br/><br/>Installing the plugin is really simple:<br/>* If you have a spigot/paper server, put the plugin in that folder.<br/>* If you have a bungeecord/waterfall server, install the plugin there, and the spigot/paper servers you own.<br/>
+Whilst it's not mandatory it's highly suggested that you get a permissions plugin for example Luckperms or PermissionsEX to unlock the full potential of the plugin.<br/><br/>Installing the plugin is really simple:<br/>* If you have a Spigot/Paper server, put the plugin in that folder.
+* If you have a Bungeecord/Waterfall server, install the plugin there, and the Spigot/Paper servers you own.<br/>
