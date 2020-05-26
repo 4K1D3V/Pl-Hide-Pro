@@ -6,4 +6,6 @@ PL-hide-pro is a next level tab complete plugin which provides the best experien
 </a>
 
 # Getting Started
+There are a couple of hard dependencies, on spigot/paper, you must have [Protocol Lib](https://www.spigotmc.org/resources/1997/). For bungeecord/waterfall, you must have [Protocolize](https://www.spigotmc.org/resources/63778/).
+
 Whilst it's not mandatory it's highly suggested that you get a permissions plugin for example Luckperms or PermissionsEX to unlock the full potential of the plugin.<br/><br/>Installing the plugin is really simple:<br/>* If you have a spigot/paper server, put the plugin in that folder.<br/>* If you have a bungeecord/waterfall server, install the plugin there, and the spigot/paper servers you own.<br/>* If you have vanilla, I don't know how you managed to get a single plugin!
