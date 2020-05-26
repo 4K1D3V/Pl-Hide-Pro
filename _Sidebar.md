@@ -3,7 +3,7 @@
 ## Pl-Hide Pro
 
 * [Home](Home)
-* [FAQ](FAQ)
+* [FAQ's](FAQ's)
 
 ***
 
