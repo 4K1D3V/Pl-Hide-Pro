@@ -53,7 +53,7 @@ A: You'll need to assign every group under "included-groups:". Meaning if you ha
 ```
 <br/>
 Q: How do my players get pl-hide group permissions?<br/><br/>
-A: By default everyone gets the group "default" regardless of whether you assign it or not. Otherwise, you need to add the permission for example **"plhide.group.test"** to apply the group "Test". Be sure to not get confused with "pl-hide.group.test" as this could lead to failure.
+A: By default everyone gets the group "default" regardless of whether you assign it or not. Otherwise, you need to add the permission for example "**plhide.group.test**" to apply the group "Test". Be sure to not get confused with "pl-hide.group.test" as this could lead to failure.
 
 # Different servers
 Q: How do I give a permission group access to different pl-hide commands across different servers?<br/><br/>
