@@ -1,14 +1,15 @@
 # Groups
 Q: How do I use Groups?<br/><br/>
 A:
-``` groupName:
+``` 
+    groupName:
     commands:
      - command1
-      - command2
+     - command2
     should-list-block1: true/false
     tabcomplete:
      - command1
-      - command2
+     - command2
     should-list-block2: true/false
     priority: 0
     included-groups:
@@ -31,6 +32,9 @@ The boolean **should-list block** decides whether the list is a blacklist or whi
 
 In the "**included-groups**" section you can add other groups (The group type of the inherited groups is that of the parent group).
 The commands and tabcompletion from the "included groups" will be added to this group. Note that the implemented groups **don't implement their implemented groups**!​
+
+
+***
 
 
 Q: How do I give a group access to another/multiple groups?<br/><br/>
