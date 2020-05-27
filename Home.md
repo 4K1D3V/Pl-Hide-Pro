@@ -35,3 +35,18 @@ Instead of going straight to discord to ask, I invite you to read the wiki first
 
 # I think the plugin could do with my idea!
 If you have a suggestion, you can either post it up in the ```#suggestions``` channel on the [discord](https://discord.gg/N5GwQpU) or also using the [issues](issues) page on github. We can then analyse the suggestion to see if it is worth applying or not.
+
+Use this format for suggestions:
+```
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
+```
