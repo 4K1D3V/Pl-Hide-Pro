@@ -6,6 +6,8 @@
 * [FAQ's](FAQ's)
 * [Groups](Groups)
 * [Commands](Commands)
+* [Spigot Config](Spigot Config)
+* [Bungeecord Config](Bungeecord Config)
 
 ***
 
