@@ -6,9 +6,9 @@
 * [FAQ's](FAQ's)
 * [Groups](Groups)
 * [Commands](Commands)
-* [Spigot Config](Spigot Config)
-* [Bungeecord Config](Bungeecord Config)
-
+* [Spigot Config](Spigot-Config)
+* [Bungeecord Config](Bungeecord-Config)
+* [Terms of Service](Terms-of-Service)
 ***
 
 More help is available on PL-Hide Pro's Discord (Click the logo for invite link):
