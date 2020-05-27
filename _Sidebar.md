@@ -11,6 +11,6 @@
 * [Terms of Service](Terms-of-Service)
 ***
 
-More help is available on PL-Hide Pro's Discord (Click the logo for invite link):
+More help is available on the Discord (Click the logo for invite link):
 
 [![Pl-Hide Pro's Discord](https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg)]( https://discord.gg/N5GwQpU)
