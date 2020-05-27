@@ -17,12 +17,17 @@ Whilst it's not mandatory it's highly suggested that you get a permissions plugi
 # I found a BUG!
 If you find a bug, we highly encourage you to [join the discord](https://discord.gg/N5GwQpU) for a faster service, however we you can also use the [Issues page](https://github.com/Nononitas/pl-hide-pro/issues) too!<br/>
 For an even faster service, please post your question using this format:
-```Plugin version:
-Config Version:
-Minecraft version:
-Describe the bug:
-How do I get to the issue:
-Screenshots:
+```
+* Your Spigot name
+* Plugin version
+* Server version
+* Client version
+* Config via pastebin
+* Log if there is an error from PL-Hide-Pro via pastebin
+* Describe the bug A clear and concise description of what the bug is.
+* To Reproduce Steps to reproduce the behavior:
+* Expected behavior A clear and concise description of what you expected to happen.
+* Screenshots (if applicable)
 ```
 
 # I need help!
