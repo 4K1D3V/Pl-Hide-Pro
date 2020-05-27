@@ -62,6 +62,29 @@ A: By default everyone gets the group "default" regardless of whether you assign
 
 ***
 
+Q: What is ```Should-list-block```?
+
+A:If a group should block commands and remove these commands from the tab completion, set should-list-block to true.
+
+Otherwise if should-list-block is set to false, only the listed commands will be executable and all not listed commands will be removed from the tabcomplete
+
+***
+
+Q:What is the operator?
+
+A:The operator ~ only works with whitelists
+Examples:
+If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
+
+If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
+
+***
+
 # Different servers
-Q: How do I give a permission group access to different pl-hide commands across different servers?<br/><br/>
-A: You'll need to create different pl-hide groups on the different servers and on the bungeecord server.<br/>Let's say you have a rank "vip" and a creative and survival server. You would need to create 2 different vip groups in the bungeecord server, e.g."vip-Creative" and "vip-Survival", making sure that whatever you put in the bungeecord group, is mirrored across the different servers.<br/>Also if you haven't already realised, you'll need to give the permission group access to both bungee pl-hide groups and for the servers, e.g. "plhide.group.vip-Creative","plhide.group.vip-Survival" and "plhide.group.vip".
+Q: How do I give a permission group access to different pl-hide commands across different servers?
+
+A: You'll need to create different pl-hide groups on the different servers and on the bungeecord server.
+
+Let's say you have a rank "vip" and a creative and survival server. You would need to create 2 different vip groups in the bungeecord server, e.g."vip-Creative" and "vip-Survival", making sure that whatever you put in the bungeecord group, is mirrored across the different servers.<br/>Also if you haven't already realised, you'll need to give the permission group access to both bungee pl-hide groups and for the servers, e.g. "plhide.group.vip-Creative","plhide.group.vip-Survival" and "plhide.group.vip".
+
+***
