@@ -32,3 +32,6 @@ For an even faster service, please post your question using this format:
 
 # I need help!
 Instead of going straight to discord to ask, I invite you to read the wiki first as a lot is covered here, this saves the developer time to improve the plugin for us all! However if it isn't covered in the wiki, you're more than welcome to [ask in the discord](https://discord.gg/N5GwQpU)
+
+# I think the plugin could do with my idea!
+If you have a suggestion, you can either post it up in the ```#suggestions``` channel on the [discord](https://discord.gg/N5GwQpU) or also using the [issues](issues) page on github. We can then analyse the suggestion to see if it is worth applying or not.
