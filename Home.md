@@ -12,7 +12,8 @@ There are a couple of hard dependencies:
 
 Whilst it's not mandatory it's highly suggested that you get a permissions plugin for example Luckperms or PermissionsEX to unlock the full potential of the plugin.<br/><br/>Installing the plugin is really simple:
 * If you have a Spigot/Paper server, put the plugin in that folder.
-* If you have a Bungeecord/Waterfall server, install the plugin there only, you shouldn't put it in the spigot/paper servers.
+* If you have a Bungeecord/Waterfall server, install the plugin there only, don't install it in the spigot/paper servers.
+* If you are using the free version, it'll only work on spigot, meaning bungeecord commands will still show, however, hopefully after seeing the potential, you should be interested in the pro version.
 
 # I found a BUG!
 If you find a bug, we highly encourage you to [join the discord](https://discord.gg/N5GwQpU) for a faster service, however we you can also use the [Issues page](https://github.com/Nononitas/pl-hide-pro/issues) too!<br/>
