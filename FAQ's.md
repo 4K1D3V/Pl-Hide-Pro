@@ -88,3 +88,8 @@ A: You'll need to create different pl-hide groups on the different servers and o
 Let's say you have a rank "vip" and a creative and survival server. You would need to create 2 different vip groups in the bungeecord server, e.g."vip-Creative" and "vip-Survival", making sure that whatever you put in the bungeecord group, is mirrored across the different servers.<br/>Also if you haven't already realised, you'll need to give the permission group access to both bungee pl-hide groups and for the servers, e.g. "plhide.group.vip-Creative","plhide.group.vip-Survival" and "plhide.group.vip".
 
 ***
+
+#Commands
+Q: **How do i add worldedit commands?
+
+A: There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand`` as an example.
