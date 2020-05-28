@@ -89,7 +89,9 @@ Let's say you have a rank "vip" and a creative and survival server. You would ne
 
 ***
 
-#Commands
-Q: **How do i add worldedit commands?
+# Commands
+Q: **How do i add worldedit commands?**
 
 A: There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand`` as an example.
+
+***
