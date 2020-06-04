@@ -36,10 +36,10 @@ Example1 (**blacklist**): If you list "cmd test" it will remove the subarg "test
 Example2 (**whitelist**): If you list "cmd test" it will remove all subargs except "test" and its subargs but not "cmd" itself. So "cmd help" not be visible
 
 
-The boolean **should-list block** decides whether the list is a blacklist or whitelist (**true=blacklist false=whitelist**)
+The boolean **group-mode-commands** and **group-mode-tabcomplete** decides whether the list is a blacklist or whitelist, and should be used respectively e.g. group-mode-commands: blacklist
 
 In the "**included-groups**" section you can add other groups (The group type of the inherited groups is that of the parent group).
-The commands and tabcompletion from the "included groups" will be added to this group. Note that the implemented groups **don't implement their implemented groups**!​
+The commands and tab completion from the "included groups" will be added to this group. Note that the implemented groups **don't implement their implemented groups**!​
 
 
 ***
@@ -98,13 +98,18 @@ Note you can't list Bungeecord plugins, because it's not possible to find out wh
 
 ***
 
-# Different servers
+Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?
+
+A: Use the ```debug: true``` section in the config.yml. Restart the server so it will show you where each group is being set.
+
+***
+
+# Server Compatibility
 Q: **How do I give a permission group access to different pl-hide commands across different servers?**
 
-A: You'll need to create different pl-hide groups on the different servers and on the bungeecord server.
+A: You need to set the groups in the bungeecord config, making sure each group has .
 
-Let's say you have a rank "vip" and a creative and survival server. You would need to create 2 different vip groups in the bungeecord server, e.g."vip-Creative" and "vip-Survival", making sure that whatever you put in the bungeecord group, is mirrored across the different servers.
-Also if you haven't already realised, you'll need to give the permission group access to both bungee pl-hide groups and for the servers, e.g. "plhide.group.vip-Creative","plhide.group.vip-Survival" and "plhide.group.vip".
+Let's say you have a rank "vip" and a creative and survival server. You would need to create 2 different vip groups in the bungeecord server (if you want them to have access to different commands), e.g."vip-Creative" and "vip-Survival". If you have the plugin on spigot servers (recommended), make sure you turn "bungee-mode: true" in the spigot servers, which will **disable** any groups in the spigot server
 
 ***
 
