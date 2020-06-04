@@ -3,6 +3,7 @@ By default every player has the permission plhide.group.default
 | Command  | Description | Permission |
 | ------------- | ------------- | ------------- |
 | /plhide reload | Reloads the config | plhide.reload |
+| /plhide-bungee reload | Reloads the config | plhide.reload |
 | /plhide help| Additional information | - |
 | /plhide updatecheck| Checks if there is a newer version | plhide.reload |
 | - | Displays the actual plugins | plhide.bypass |
