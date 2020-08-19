@@ -98,7 +98,7 @@ Note you can't list Bungeecord plugins, because it's not possible to find out wh
 
 ***
 
-Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?
+Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
 
 A: Use the ```debug: true``` section in the config.yml. Restart the server so it will show you where each group is being set.
 
