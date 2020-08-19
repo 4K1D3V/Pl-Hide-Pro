@@ -1,4 +1,7 @@
 ```
+#
+debug: false
+
 #OP-protection: Player can only be op'ed if they are in the "allowed-operators" list
 op-protection: false
 allowed-operators:
@@ -9,8 +12,6 @@ op-message: "&cThe Player isn't a listed operator!!!"
 #Players who are operators and are not in the list can't connect and will be deop'ed.
 unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
 
-#Message if you type a blocked command | Enter none to disable
-blocked-command-message: "&7Unknown command"
 
 #Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
 /pl-message: 'Plugins (0):'
@@ -19,12 +20,18 @@ blocked-command-message: "&7Unknown command"
 #Enable or disable automatic ingame update notification on join
 update-notify: true
 
-#Blocks all "/<pluginname>:<command>" from tabcompleting and from executing
-block-plugin-named-commands: true
+#Blocks all "/<pluginname>:<command>"
+block-plugin-named-commands-tabcomplete: true
+block-plugin-named-commands-execution: true
 
 #Set true if you are using the bungeecord version and want to block commands via plugin:<pluginname>
 #If true the groupsystem in this config will be disabled
 bungee-mode: false
+#If the proxy has a different ip and enter the proxys ip
+#Make sure the port is open
+#If you change these values, the server has to be restarted
+ip: 127.0.0.1
+port: 1550
 
 groups:
   #If no group is set via the permission plhide.group.<group> this will be applied
@@ -81,6 +88,8 @@ groups:
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
+    #Message if you type a blocked command | Enter none to disable
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
     #here you can add other groups
     #The group mode is taken from the main group, in this case the main group is "default"
     included-groups:
@@ -95,10 +104,11 @@ groups:
       - none
     group-mode-tabcomplete: blacklist
     priority: 1
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups:
       - none
 
 
 #Don't change
-version: "1.3"
+version: "1.6"
 ```
