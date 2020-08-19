@@ -1,1 +1,1 @@
-If you think that something is missing let us know in discord, Thanks for taking your time to read this!
+**If you think that something is missing let us know in discord, Thanks for taking your time to read this!**
