@@ -2,14 +2,11 @@
 #
 #Note that this is the Bungeecord configuration and therefore some spigot function are missing
 #
-#For some commands, the tabblock function may not work with subargs.
+#For some commands, the tabblock function maybe not work with subargs.
 #This is because these commands from the bukkit server are themselves.
 #In this case, you can simply install the plugin on the subserver and set it there.
 #
-
-
-#Message if you type a blocked command | Enter none to disable
-blocked-command-message: "&7Unknown command"
+debug: false
 
 #Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
 /pl-message: 'Plugins (0):'
@@ -18,11 +15,14 @@ blocked-command-message: "&7Unknown command"
 #Enable or disable automatic ingame update notification on join
 update-notify: true
 
-#Blocks all "/<pluginname>:<command>" from tabcompleting and from executing
-block-plugin-named-commands: true
+#Blocks all "/<pluginname>:<command>"
+block-plugin-named-commands-tabcomplete: true
+block-plugin-named-commands-execution: true
 
 #If you want to use "plugin:<pluginName> make sure you installed PL-Hide-Pro on the MC-Servers and enabled bungee-mode
 #Also "plugin:<pluginName> won't work with bungeecord plugins
+#If you change these value, the server has to be restarted
+port: 1550
 
 groups:
   #If no group is set via the permission plhide.group.<group> this will be applied
@@ -88,6 +88,8 @@ groups:
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
+    #Message if you type a blocked command | Enter none to disable
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
     #Minecraft server names on which this group will be applied | all means on every server.
     #type /servers in Bungeecord to find out which servernames are available
     servers:
@@ -108,10 +110,11 @@ groups:
     servers:
       - example1
     priority: 1
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups:
       - none
 
 
 #Don't change
-version: "1.2"
+version: "1.4"
 ```
