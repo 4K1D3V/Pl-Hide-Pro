@@ -1,3 +1,4 @@
+```
 #
 debug: false
 
@@ -101,3 +102,4 @@ groups:
 
 #Don't change
 version: "1.6"
+```
