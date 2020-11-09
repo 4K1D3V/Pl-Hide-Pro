@@ -1,4 +1,3 @@
-```
 #
 debug: false
 
@@ -23,15 +22,6 @@ update-notify: true
 #Blocks all "/<pluginname>:<command>"
 block-plugin-named-commands-tabcomplete: true
 block-plugin-named-commands-execution: true
-
-#Set true if you are using the bungeecord version and want to block commands via plugin:<pluginname>
-#If true the groupsystem in this config will be disabled
-bungee-mode: false
-#If the proxy has a different ip and enter the proxys ip
-#Make sure the port is open
-#If you change these values, the server has to be restarted
-ip: 127.0.0.1
-port: 1550
 
 groups:
   #If no group is set via the permission plhide.group.<group> this will be applied
@@ -111,4 +101,3 @@ groups:
 
 #Don't change
 version: "1.6"
-```
