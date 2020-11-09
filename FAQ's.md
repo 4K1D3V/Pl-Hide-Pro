@@ -39,7 +39,7 @@ Example2 (**whitelist**): If you list "cmd test" it will remove all subargs exce
 The boolean **group-mode-commands** and **group-mode-tabcomplete** decides whether the list is a blacklist or whitelist, and should be used respectively e.g. group-mode-commands: blacklist
 
 In the "**included-groups**" section you can add other groups (The group type of the inherited groups is that of the parent group).
-The commands and tab completion from the "included groups" will be added to this group. Note that the implemented groups **don't implement their implemented groups**!​
+The commands and tab completion from the "included groups" will be added to this group. Note that the implemented groups **implement their implemented groups**!​
 
 
 ***
