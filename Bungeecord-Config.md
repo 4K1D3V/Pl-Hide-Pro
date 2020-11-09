@@ -1,4 +1,3 @@
-```#
 #
 #Note that this is the Bungeecord configuration and therefore some spigot function are missing
 #
@@ -19,10 +18,6 @@ update-notify: true
 block-plugin-named-commands-tabcomplete: true
 block-plugin-named-commands-execution: true
 
-#If you want to use "plugin:<pluginName> make sure you installed PL-Hide-Pro on the MC-Servers and enabled bungee-mode
-#Also "plugin:<pluginName> won't work with bungeecord plugins
-#If you change these value, the server has to be restarted
-port: 1550
 
 groups:
   #If no group is set via the permission plhide.group.<group> this will be applied
@@ -117,4 +112,3 @@ groups:
 
 #Don't change
 version: "1.4"
-```
