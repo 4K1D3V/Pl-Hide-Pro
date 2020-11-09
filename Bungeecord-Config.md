@@ -1,3 +1,4 @@
+```
 #
 #Note that this is the Bungeecord configuration and therefore some spigot function are missing
 #
@@ -112,3 +113,4 @@ groups:
 
 #Don't change
 version: "1.4"
+```
