@@ -8,7 +8,6 @@
 * [Commands](Commands)
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
-* [Terms of Service](Terms-of-Service)
 ***
 
 More help is available on the Discord (Click the logo for an invite link):
