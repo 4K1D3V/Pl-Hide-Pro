@@ -1,4 +1,3 @@
-By default every player has the permission plhide.group.default
 
 | Command  | Description | Permission |
 | ------------- | ------------- | ------------- |
@@ -8,4 +7,4 @@ By default every player has the permission plhide.group.default
 | - | Displays the actual plugins | plhide.bypass |
 | - | Assign a Pl Hide group | plhide.group.{groupname} |
 
-**For the Bungeecord plugin the command is /plhide-bungee.**
+### For the Bungeecord plugin the command is /plhide-bungee.
