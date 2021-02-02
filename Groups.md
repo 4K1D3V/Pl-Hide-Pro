@@ -1,13 +1,42 @@
-Each group has a **command list** and a **tab-complete** list
+## Groupname
 
-There are two group modes:
-* **Blacklist**-> Blocks commands or removes commands from tabcomplete
-* **Whitelist**-> allows commands or displays commands in tabcomplete
-
-A group **can inherit** from other groups. These then assume the group type of the parent group
+Each group needs a different **groupname**.
 
 To add a specific group to a user, add the permission **plhide.group.{groupname}**. If a player has **2 groups** permissions, then the group is set depending on the **priority** (the higher the number, the higher the priority)
 With the Bungeecord plugin you can choose on which servers the groups should be applied.
+
+## Commands
+
+The "**commands**" **section** lists the commands that can either be blocked or executed exclusively. List subcommads is also possible:
+
+Example1 (**blacklist**): If you list "cmd test" it will block "cmd test" and its subargs ("cmd test <args>"), but it will not block "cmd" or "cmd help"
+
+Example2 (**whitelist**): If you list "cmd test" it will block "cmd" and "cmd help", but it will not block "cmd test" or "cmd test <args>".
+
+## Tabcomplete
+
+The "**tabcomplete**" section lists the commands that are either be removed or only visible in the tabcompletion. List subtabcompletions is also possible:
+
+
+Example1 (**blacklist**): If you list "cmd test" it will remove the subarg "test" and its subargs but not "cmd" itself. So "cmd help" will be visible.
+
+
+Example2 (**whitelist**): If you list "cmd test" it will remove all subargs except "test" and its subargs but not "cmd" itself. So "cmd help" not be visible
+
+## Groupmode
+
+The boolean **group-mode-commands** and **group-mode-tabcomplete** decides whether the list is a blacklist or whitelist, and should be used respectively e.g. group-mode-commands: blacklist
+
+## Server
+
+If you are using the Bungeecord plugin, there is another list called **servers**. Here you add the server names on which the group can only be inherited or applied. 
+The default value is "all".
+
+## Inheritance
+
+In the "**included-groups**" section you can add other groups (The group type of the inherited groups is that of the parent group).
+The commands and tab completion from the "included groups" will be added to this group. Note that the implemented groups **implement their implemented groups**!​
+So the inheritance is recursive means: if you have, for example, 3 groups: Default, Moderator, Admin. Moderator inherits from Default and Admin inherits from Moderator, then Admin also inherits the Default group, since Moderator inherits it 
 
 Example group:
 ``` 
