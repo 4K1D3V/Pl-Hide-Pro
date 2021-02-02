@@ -62,6 +62,7 @@ A: You'll need to assign every group under "included-groups:". Meaning if you ha
       - default
       - Moderator
 ```
+**Note that groups are inherited recursively**. For example, if moderator also includes default, you don't have to inherit default for the Admin group as well.
 
 ***
 
@@ -80,36 +81,28 @@ Otherwise if group-mode is set to whitelist, only the listed commands will be ex
 
 ***
 
-Q:**What is the operator ```~```?**
+~~Q:**What is the operator ```~```?**~~
 
-A:The operator ~ only works with whitelists
-Examples:
-If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
+~~A:The operator ~ only works with whitelists
+Examples:~~
 
-If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
+~~If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.~~
+
+~~If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.~~
 
 ***
 
-Q: **Can I add all commands of a plugin?**
+~~Q: **Can I add all commands of a plugin?**~~
 
-A: Yes. Just add for example ```- plugin:WorldEdit``` to your list
+~~A: Yes. Just add for example ```- plugin:WorldEdit``` to your list
 If you use Bungeecord you have to install the plugin on each MC server with bungee-mode to true.
-Note you can't list Bungeecord plugins, because it's not possible to find out which plugin has registered a command
+Note you can't list Bungeecord plugins, because it's not possible to find out which plugin has registered a command~~
 
 ***
 
 Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
 
-A: Use the ```debug: true``` section in the config.yml. Restart the server so it will show you where each group is being set.
-
-***
-
-# Server Compatibility
-Q: **How do I give a permission group access to different pl-hide commands across different servers?**
-
-A: You need to set the groups in the bungeecord config, making sure each group has .
-
-Let's say you have a rank "vip" and a creative and survival server. You would need to create 2 different vip groups in the bungeecord server (if you want them to have access to different commands), e.g."vip-Creative" and "vip-Survival". If you have the plugin on spigot servers (recommended), make sure you turn "bungee-mode: true" in the spigot servers, which will **disable** any groups in the spigot server
+A: Use the ```debug: true``` section in the config.yml. Reload the plugin so it will show you where each group is being set. The debug log is located in the plhide folder.
 
 ***
 
