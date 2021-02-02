@@ -4,7 +4,7 @@
 
 * [Home](Home)
 * [FAQ's](FAQ's)
-* [Groups](Groups)
+* [Group](Group)
 * [Commands](Commands)
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
