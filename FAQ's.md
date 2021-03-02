@@ -1,4 +1,4 @@
-Q: **How do I give a group access to another/multiple groups?**
+### Q: **How do I give a group access to another/multiple groups?**
 
 
 A: You'll need to assign every group under "included-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
@@ -19,14 +19,14 @@ A: You'll need to assign every group under "included-groups:". Meaning if you ha
 
 ***
 
-Q: **How do my players get pl-hide group permissions?**
+### Q: **How do my players get pl-hide group permissions?**
 
 
 A: By default everyone gets the group "default" regardless of whether you assign it or not. Otherwise, you need to add the permission for example "**plhide.group.test**" to apply the group "Test". Be sure to not get confused with "pl-hide.group.test" as this could lead to failure.
 
 ***
 
-Q: **What is a ```group mode```?**
+### Q: **What is a ```group mode```?**
 
 A:If a group should block commands and remove these commands from the tab completion, set group-mode to blacklist.
 
@@ -34,7 +34,7 @@ Otherwise if group-mode is set to whitelist, only the listed commands will be ex
 
 ***
 
-~~Q:**What is the operator ```~```?**~~
+### ~~Q:**What is the operator ```~```?**~~
 
 ~~A:The operator ~ only works with whitelists
 Examples:~~
@@ -53,13 +53,12 @@ Note you can't list Bungeecord plugins, because it's not possible to find out wh
 
 ***
 
-Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
+### Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
 
 A: Use the ```debug: true``` section in the config.yml. Reload the plugin so it will show you where each group is being set. The debug log is located in the plhide folder.
 
 ***
 
-# Commands
-Q: **How do i add worldedit commands?**
+### Q: **How do i add worldedit commands?**
 
 A: There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand``` as an example.
