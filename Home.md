@@ -16,10 +16,9 @@ Whilst it's not mandatory it's highly suggested that you get a permissions plugi
 * If you are using the free version, it'll only work on spigot, meaning bungeecord commands will still show, however, hopefully after seeing the potential, you should be interested in the pro version.
 
 # I found a BUG!
-If you find a bug, we highly encourage you to [join the discord](https://discord.gg/N5GwQpU) for a faster service, however we you can also use the [Issues page](https://github.com/Nononitas/pl-hide-pro/issues) too!<br/>
+If you find a bug, we highly encourage you to [join the discord](https://discord.gg/N5GwQpU) for a faster service, however you can also contanct me via DM on Spigot/Polymart too!<br/>
 For an even faster service, please post your question using this format:
 ```
-* Your Spigot name
 * Plugin version
 * Server version
 * Client version
@@ -35,9 +34,9 @@ For an even faster service, please post your question using this format:
 Instead of going straight to discord to ask, I invite you to read the wiki first as a lot is covered here, this saves the developer time to improve the plugin for us all! However if it isn't covered in the wiki, you're more than welcome to [ask in the discord](https://discord.gg/N5GwQpU)
 
 # I think the plugin could do with my idea!
-If you have a suggestion, you can either post it up in the ```#suggestions``` channel on the [discord](https://discord.gg/N5GwQpU) or also using the [issues](issues) page on github. We can then analyse the suggestion to see if it is worth applying or not.
+If you have a suggestion, you can either post it up in the ```#suggestions``` channel on the [discord](https://discord.gg/N5GwQpU). I can then analyse the suggestion to see if it is worth applying or not.
 
-Use this format for suggestions:
+You can use this format for suggestions:
 ```
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
