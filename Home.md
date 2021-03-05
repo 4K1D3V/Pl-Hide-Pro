@@ -15,6 +15,24 @@ Whilst it's not mandatory it's highly suggested that you get a permissions plugi
 * If you have a Bungeecord/Waterfall server, install the plugin there only, don't install it in the spigot/paper servers.
 * If you are using the free version, it'll only work on spigot, meaning bungeecord commands will still show, however, hopefully after seeing the potential, you should be interested in the pro version.
 
+# Overview
+
+* [FAQ's](FAQ's)
+  * [Give access to another/multiple groups](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-give-a-group-access-to-anothermultiple-groups)
+  * [Groupmode meaning](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-what-is-a-group-mode)
+  * [Whitelist a command without subargs](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#qwhat-is-the-operator-)
+  * [Add WorldEdit commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-add-worldedit-commands)
+* [Groups explained](Group)
+  * [Commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#commands)
+  * [Tabcomplete](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#tabcomplete)
+  * [Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#groupmode)
+  * [Server](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#server)
+  * [Inheritance](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance)
+* [Plugin commands](Commands)
+* [Spigot Config](Spigot-Config)
+* [Bungeecord Config](Bungeecord-Config)
+***
+
 # I found a BUG!
 If you find a bug, we highly encourage you to [join the discord](https://discord.gg/N5GwQpU) for a faster service, however you can also contanct me via DM on Spigot/Polymart too!<br/>
 For an even faster service, please post your question using this format:
