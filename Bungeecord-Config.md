@@ -2,14 +2,17 @@
 #
 #Note that this is the Bungeecord configuration and therefore some spigot function are missing
 #
-#For some commands, the tabblock function maybe not work with subargs.
-#This is because these commands from the bukkit server are themselves.
-#In this case, you can simply install the plugin on the subserver and set it there.
-#
+
+#Config version. Don't change!
+version: "5"
+
 debug: false
 
 #Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
 /pl-message: 'Plugins (0):'
+
+#Changes the server brand in the upper left of the f3 debug screen
+f3-server-brand: '&3Plugin&7-&3Hide&7-&6Pro'
 
 #Stay on the newest version to get better features!
 #Enable or disable automatic ingame update notification on join
@@ -93,24 +96,19 @@ groups:
     #here you can add other groups
     #The group mode is taken from the main group, in this case the main group is "default"
     included-groups:
-      - none
+      - Test
 
+  #This group for example will remove and block all commands for the server lobby
   #add permission plhide.group.test to apply the group "Test"
   Test:
-    commands:
-      - none
-    group-mode-commands: blacklist
-    tabcomplete:
-      - none
-    group-mode-tabcomplete: blacklist
+    commands: []
+    group-mode-commands: whitelist
+    tabcomplete: []
+    group-mode-tabcomplete: whitelist
     servers:
-      - example1
+      - lobby
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups:
-      - none
+    included-groups: []
 
-
-#Don't change
-version: "1.4"
 ```
