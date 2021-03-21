@@ -34,14 +34,14 @@ Otherwise if group-mode is set to whitelist, only the listed commands will be ex
 
 ***
 
-### ~~Q:**What is the operator ```~```?**~~
+### Q:**What is the operator ```~```?**
 
-~~A:The operator ~ only works with whitelists
-Examples:~~
+A:The operator ~ only works with whitelists
+Examples:
 
-<del>If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
+If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
 
-<del>If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.</del>
+If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
 
 ***
 
