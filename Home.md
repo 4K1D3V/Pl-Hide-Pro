@@ -28,6 +28,7 @@ Whilst it's not mandatory it's highly suggested that you get a permissions plugi
   * [Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#groupmode)
   * [Server](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#server)
   * [Inheritance](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance)
+* [Troubleshooting](Troubleshooting)
 * [Plugin commands](Commands)
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
