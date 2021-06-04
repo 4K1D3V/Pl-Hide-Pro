@@ -22,6 +22,7 @@ PL-Hide-Pro is a next level tab complete plugin which provides the best experien
   * [Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#groupmode)
   * [Server](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#server)
   * [Inheritance](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance)
+* [Setup the autlisting command function per plugin for Spigot plugin commands in Bungeecord](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 * [Error-causing plugins](Error-causing-plugins)
 * [Plugin commands](Commands)
 * [Spigot Config](Spigot-Config)
