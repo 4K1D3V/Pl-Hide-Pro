@@ -45,7 +45,7 @@ If you list "help ~" in the "tabcomplete" list, /help is displayed without its s
 
 ***
 
-### Q: **Can I add all commands of a plugin?**
+### Q: **Can I automatically add all commands of a plugin?**
 
 A: Yes. Just add for example ```- plugin:WorldEdit``` to your list
 If you use the Bungeecord version follow this [guide](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
