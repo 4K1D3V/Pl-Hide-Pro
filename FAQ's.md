@@ -45,11 +45,11 @@ If you list "help ~" in the "tabcomplete" list, /help is displayed without its s
 
 ***
 
-~~Q: **Can I add all commands of a plugin?**~~
+### Q: **Can I add all commands of a plugin?**
 
-~~A: Yes. Just add for example ```- plugin:WorldEdit``` to your list
+A: Yes. Just add for example ```- plugin:WorldEdit``` to your list
 If you use Bungeecord you have to install the plugin on each MC server with bungee-mode to true.
-Note you can't list Bungeecord plugins, because it's not possible to find out which plugin has registered a command~~
+Note you can't list Bungeecord plugins, because it's not possible to find out which plugin has registered a command
 
 ***
 
