@@ -5,4 +5,4 @@
 * Enable the bungee-mode in the Spigot config.yml of my plugin
 * Reload PLHide-Pro with /plhide rl
 
-Now 'plugin:<pluginName>' should work for all Spigot plugins in Bungee config.yml of my plugin
+Now `plugin:<pluginName>` should work for all Spigot plugins in Bungee config.yml of my plugin
