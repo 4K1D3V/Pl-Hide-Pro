@@ -1,6 +1,6 @@
 ```
 #Config version. Don't change!
-version: "7"
+version: "9"
 
 debug: false
 
@@ -10,7 +10,7 @@ allowed-operators:
   - Player1
   - Player2
 #If you try to Op someone who isn't in the list
-op-message: "&cThe Player isn't a listed operator!!!"
+op-message: "&cThe Player isn't a listed operator!"
 #Players who are operators and are not in the list can't connect and will be deop'ed.
 unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
 
@@ -19,10 +19,20 @@ unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
 
 #Changes the server brand in the upper left of the f3 debug screen
 f3-server-brand: '&3Plugin&7-&3Hide&7-&6Pro'
+replace-f3-server-brand: true
 
 #Stay on the newest version to get better features!
 #Enable or disable automatic ingame update notification on join
 update-notify: true
+
+#Set true if you are using the bungeecord version and want to block commands via plugin:<pluginname> on the bungee version
+#If true the groupsystem in this config will be disabled
+bungee-mode: false
+#If the proxy has a different ip and enter the proxys ip
+#Make sure the port on the proxy is open
+#If you change these values, the server has to be restarted or reloaded with plugman
+ip: 127.0.0.1
+port: 1550
 
 #Blocks all "/<pluginname>:<command>"
 block-plugin-named-commands-tabcomplete: true
