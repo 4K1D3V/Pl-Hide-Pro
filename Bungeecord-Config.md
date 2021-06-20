@@ -4,7 +4,7 @@
 #
 
 #Config version. Don't change!
-version: "5"
+version: "7"
 
 debug: false
 
@@ -12,11 +12,20 @@ debug: false
 /pl-message: 'Plugins (0):'
 
 #Changes the server brand in the upper left of the f3 debug screen
+#Use %server% to display the server name of the mc server.
 f3-server-brand: '&3Plugin&7-&3Hide&7-&6Pro'
+replace-f3-server-brand: true
 
 #Stay on the newest version to get better features!
 #Enable or disable automatic ingame update notification on join
 update-notify: true
+
+#If you want to use the feature "plugin:<pluginName> make sure you installed PL-Hide-Pro on the MC-Servers and enabled bungee-mode
+#Also "plugin:<pluginName> won't work with bungeecord plugins
+#If you change these value, the server has to be restarted
+bungee-mode: false
+ip: 127.0.0.1
+port: 1550
 
 #Blocks all "/<pluginname>:<command>"
 block-plugin-named-commands-tabcomplete: true
@@ -101,14 +110,14 @@ groups:
   #This group for example will remove and block all commands for the server lobby
   #add permission plhide.group.test to apply the group "Test"
   Test:
-    commands: []
+    commands: [ ]
     group-mode-commands: whitelist
-    tabcomplete: []
+    tabcomplete: [ ]
     group-mode-tabcomplete: whitelist
     servers:
       - lobby
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: []
+    included-groups: [ ]
 
 ```
