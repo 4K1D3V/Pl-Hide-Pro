@@ -16,7 +16,9 @@ A: You'll need to assign every group under "included-groups:". Meaning if you ha
       - Moderator
 ```
 **Note that groups are inherited recursively**. For example, if moderator also includes default, you don't have to inherit default for the Admin group as well.
+
 **Also the group modes are always taken from the parent group** 
+
 So in this case if you assign the Admin group to a player the group modes of commands and tabcomplete will be switched to whitelist for default, Moderator and their inherited groups
 
 ***
