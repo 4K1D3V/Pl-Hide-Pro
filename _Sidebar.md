@@ -20,6 +20,7 @@
 * [Plugin commands](Commands)
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
+* [Velocity Config](Velocity-Config)
 ***
 
 More help is available on the Discord (Click the logo for an invite link):
