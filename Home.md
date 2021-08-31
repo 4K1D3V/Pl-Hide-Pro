@@ -28,3 +28,4 @@ PL-Hide-Pro is a next level tab complete plugin which provides the best experien
 * [Plugin commands](Commands)
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
+* [Velocity Config](Velocity-Config)
