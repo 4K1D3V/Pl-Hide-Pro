@@ -1,6 +1,7 @@
 ```
 #
 #Note that this is the Bungeecord configuration and therefore some spigot function are missing
+#Wiki: https://github.com/Nononitas/Plugin-Hide-Pro/wiki
 #
 
 #Config version. Don't change!
@@ -8,7 +9,7 @@ version: "7"
 
 debug: false
 
-#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins when executing /plugins
 /pl-message: 'Plugins (0):'
 
 #Changes the server brand in the upper left of the f3 debug screen
@@ -21,19 +22,21 @@ replace-f3-server-brand: true
 update-notify: true
 
 #If you want to use the feature "plugin:<pluginName> make sure you installed PL-Hide-Pro on the MC-Servers and enabled bungee-mode
-#Also "plugin:<pluginName> won't work with bungeecord plugins
-#If you change these value, the server has to be restarted
+#Read here for more details https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord
 bungee-mode: false
+#Only change this ip if the Spigot Subservers are hosted on a different ip than the Bungeecord server
 ip: 127.0.0.1
+#If the ip is other than 127.0.0.1, make sure the port is open
+#Do NOT change the port unless you are 100% sure what you are doing. In most cases it is recommended to leave the default value
 port: 1550
 
-#Blocks all "/<pluginname>:<command>"
+#Blocks all "/<pluginname>:<command>" | For example it will remove /essentials:warp but not /warp
 block-plugin-named-commands-tabcomplete: true
 block-plugin-named-commands-execution: true
 
 
 groups:
-  #If no group is set via the permission plhide.group.<group> this will be applied
+  #If no group is set via the permission plhide.group.<group> this will be used
   #Do not rename the default group!
   default:
     #The list of commands whose execution will be blocked or only executable
@@ -62,10 +65,10 @@ groups:
       - bungee
       - glist
       - server
-    #If the value is  blacklist, the commands in the "commands" list are blocked
-    #If the value is  whitelist, the commands in the "commands" list are only executable
+    #If the value is set to blacklist, the commands in the "commands" list are blocked from execution
+    #If the value is set to whitelist, the commands in the "commands" list are the only ones that can be executed
     group-mode-commands: blacklist
-    #The list of commands that will be removed from the tabcomplete or only visible
+    #The list of commands that will be removed from the tab or just made visible
     tabcomplete:
       - ver
       - version
@@ -90,25 +93,27 @@ groups:
       - bungee
       - glist
       - server
-    #If the value is blacklist, the commands in the "tabcomplete" list are removed from the tab complete
-    #If the value is whitelist, the commands in the "tabcomplete" list are only visible in the tab complete
+    #If the value is set to blacklist, the commands in the "tabcomplete" list are removed from the tab complete
+    #If the value is set to whitelist, the commands in the "tabcomplete" list are only visible in the tab complete
     group-mode-tabcomplete: blacklist
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
-    #Message if you type a blocked command | Enter none to disable
+    #The message if you type a blocked command | Enter none to disable
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     #Minecraft server names on which this group will be applied | all means on every server.
     #type /servers in Bungeecord to find out which servernames are available
     servers:
       - all
-    #here you can add other groups
-    #The group mode is taken from the main group, in this case the main group is "default"
+    #Here you can add other groups: The commands and tab completion from the "included groups" will be added to this group
+    #Read more here https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance
+    #The group modes are taken from the parent group, in this case the parent group is "default"
+    #The group is only inherited if a server in the "servers" list of the subordinate group matches the player's server
     included-groups:
       - Test
 
-  #This group for example will remove and block all commands for the server lobby
-  #add permission plhide.group.test to apply the group "Test"
+  #This group will remove all commands from the tab complete and block them from being executed
+  #Give the player the plhide.group.test permission to use the group
   Test:
     commands: [ ]
     group-mode-commands: whitelist
