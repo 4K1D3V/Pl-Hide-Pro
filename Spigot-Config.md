@@ -1,4 +1,8 @@
 ```
+#
+#Wiki https://github.com/Nononitas/Plugin-Hide-Pro/wiki
+#
+
 #Config version. Don't change!
 version: "9"
 
@@ -9,12 +13,12 @@ op-protection: false
 allowed-operators:
   - Player1
   - Player2
-#If you try to Op someone who isn't in the list
+#If you try to OP someone who isn't in the list
 op-message: "&cThe Player isn't a listed operator!"
 #Players who are operators and are not in the list can't connect and will be deop'ed.
 unauthorized-operator-kick-message: '&cYou are not allowed to be an operator'
 
-#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins when executing /plugins
 /pl-message: 'Plugins (0):'
 
 #Changes the server brand in the upper left of the f3 debug screen
@@ -29,20 +33,20 @@ update-notify: true
 #If true the groupsystem in this config will be disabled
 bungee-mode: false
 #If the proxy has a different ip and enter the proxys ip
-#Make sure the port on the proxy is open
-#If you change these values, the server has to be restarted or reloaded with plugman
+
 ip: 127.0.0.1
+#Do NOT change the port unless you are 100% sure what you are doing. In most cases it is recommended to leave the default value
 port: 1550
 
-#Blocks all "/<pluginname>:<command>"
+#Blocks all "/<pluginname>:<command>" | For example it will remove /essentials:warp but not /warp
 block-plugin-named-commands-tabcomplete: true
 block-plugin-named-commands-execution: true
 
 groups:
-  #If no group is set via the permission plhide.group.<group> this will be applied
+  #If no group is set via the permission plhide.group.<group> this will be used
   #Do not rename the default group!
   default:
-  #The list of commands whose execution will be blocked or only executable
+    #The list of commands whose execution is blocked or can only be executed
     commands:
       - ver
       - version
@@ -63,10 +67,10 @@ groups:
       - bukkit:ver
       - bukkit:version
       - bukkit:about
-    #If the value is blacklist, the commands in the "commands" list are blocked
-    #If the value is whitelist, the commands in the "commands" list are only executable
+    #If the value is set to blacklist, the commands in the "commands" list are blocked from execution
+    #If the value is set to whitelist, the commands in the "commands" list are the only ones that can be executed
     group-mode-commands: blacklist
-  #The list of commands that will be removed from the tabcomplete or only visible
+    #The list of commands that will be removed from the tab or just made visible
     tabcomplete:
       - ver
       - version
@@ -87,21 +91,22 @@ groups:
       - bukkit:ver
       - bukkit:version
       - bukkit:about
-    #If the value is blacklist, the commands in the "tabcomplete" list are removed from the tab complete
-    #If the value is whitelist, the commands in the "tabcomplete" list are only visible in the tab complete
+    #If the value is set to blacklist, the commands in the "tabcomplete" list are removed from the tab complete
+    #If the value is set to whitelist, the commands in the "tabcomplete" list are only visible in the tab complete
     group-mode-tabcomplete: blacklist
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
-    #Message if you type a blocked command | Enter none to disable
+    #The message if you type a blocked command | Enter none to disable
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    #here you can add other groups
-    #The group mode is taken from the main group, in this case the main group is "default"
+    #Here you can add other groups: The commands and tab completion from the "included groups" will be added to this group
+    #Read more here https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance
+    #The group modes are taken from the parent group, in this case the parent group is "default"
     included-groups:
-      - Test
+      - exampleGroup
 
-  #This group for example will remove and block all commands
-  #add permission plhide.group.test to apply the group "Test"
+  #This group will remove all commands from the tab complete and block them from being executed
+  #Give the player the plhide.group.test permission to use the group
   Test:
     commands: []
     group-mode-commands: whitelist
@@ -110,5 +115,6 @@ groups:
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: []
+
 
 ```
