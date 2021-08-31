@@ -124,5 +124,17 @@ groups:
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: [ ]
+  #This group will be added automatically if you have * permissions
+  #Do not rename or delete this group
+  "*":
+    commands: [ ]
+    group-mode-commands: blacklist
+    tabcomplete: [ ]
+    group-mode-tabcomplete: blacklist
+    servers:
+      - all
+    priority: 10
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
+    included-groups: [ ]
 
 ```
