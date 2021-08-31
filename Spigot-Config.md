@@ -115,6 +115,25 @@ groups:
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: []
-
+  #This group will be added automatically if you are an operator
+  #Do not rename or delete this group
+  op:
+    commands: []
+    group-mode-commands: blacklist
+    tabcomplete: []
+    group-mode-tabcomplete: blacklist
+    priority: 10
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
+    included-groups: []
+  #This group will be added automatically if you have * permissions
+  #Do not rename or delete this group
+  "*":
+    commands: []
+    group-mode-commands: blacklist
+    tabcomplete: []
+    group-mode-tabcomplete: blacklist
+    priority: 11
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
+    included-groups: []
 
 ```
