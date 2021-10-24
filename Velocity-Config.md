@@ -1,79 +1,49 @@
 ```
 #
-#Note that this is the Velocity configuration and therefore some spigot/bungee version functions are missing because of the VelocityAPI
-#I recommend only using blacklist mode and blacklisting only Velocity commands and doing the rest via the spigot version
+#Note that this is the Velocity configuration and therefore some spigot/bungee version functions are missing
 #Wiki: https://github.com/Nononitas/Plugin-Hide-Pro/wiki
 #
 
 #Config version. Don't change!
-version: "1"
+version: "2"
 
 debug: false
 
-#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass will see the real plugins
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass.pl-message will see the real plugins
 /pl-message: 'Plugins (0):'
 
 #Stay on the newest version to get better features!
 #Enable or disable automatic ingame update notification on join
 update-notify: true
 
-#Blocks all "/<pluginname>:<command>"
-block-plugin-named-commands-tabcomplete: true
-block-plugin-named-commands-execution: true
-
-
 groups:
   #If no group is set via the permission plhide.group.<group> this will be used
   #Do not rename the default group!
   default:
-    #The list of commands whose execution will be blocked or only executable
+    #The list of commands whose execution will be allowed only
     commands:
-      - ver
-      - version
-      - about
-      - bukkit
-      - icanhasbukkit
-      - help
-      - '?'
-      - me
-      - minecraft:me
-      - minecraft:help
-      - bukkit:?
-      - bukkit:help
-      - plugins
-      - pl
-      - bukkit:pl
-      - bukkit:plugins
-      - bukkit:ver
-      - bukkit:version
-      - bukkit:about
-    #If the value is set to blacklist, the commands in the "commands" list are blocked from execution
-    #If the value is set to whitelist, the commands in the "commands" list are the only ones that can be executed
-    group-mode-commands: blacklist
-    #The list of commands that will be removed from the tab or just made visible
+      - spawn
+      - tpa
+      - tpaccept
+      - tpdeny
+      - pay
+      - money
+      - balance
+      - warp
+      - msg
+      - r
+    #The list of commands that will be made visible only in tabcomplete
     tabcomplete:
-      - ver
-      - version
-      - about
-      - bukkit
-      - icanhasbukkit
-      - help
-      - '?'
-      - me
-      - minecraft:me
-      - minecraft:help
-      - bukkit:?
-      - bukkit:help
-      - plugins
-      - pl
-      - bukkit:pl
-      - bukkit:plugins
-      - bukkit:ver
-      - bukkit:version
-      - bukkit:about
-    #If the value is set to blacklist, the commands in the "tabcomplete" list are removed from the tab complete
-    #If the value is set to whitelist, the commands in the "tabcomplete" list are only visible in the tab complete
-    group-mode-tabcomplete: blacklist
+      - spawn
+      - tpa
+      - tpaccept
+      - tpdeny
+      - pay
+      - money
+      - balance
+      - warp
+      - msg
+      - r
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
@@ -94,9 +64,7 @@ groups:
   #Give the player the plhide.group.test permission to use the group
   Test:
     commands: [ ]
-    group-mode-commands: whitelist
     tabcomplete: [ ]
-    group-mode-tabcomplete: whitelist
     servers:
       - lobby
     priority: 1
@@ -107,12 +75,10 @@ groups:
   #Do not rename or delete this group
   "*":
     commands: [ ]
-    group-mode-commands: blacklist
     tabcomplete: [ ]
-    group-mode-tabcomplete: blacklist
     servers:
       - all
     priority: 10
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: [ ]
+    
 ```
