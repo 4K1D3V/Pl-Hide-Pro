@@ -18,11 +18,14 @@
 * [Setup the autlisting command function per plugin for Spigot plugin commands in Bungeecord](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 * [Error-causing plugins](Error-causing-plugins)
 * [Plugin commands](Commands)
+
+***
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
 * [Velocity Config](Velocity-Config)
 ***
-
+[API](API)
+***
 More help is available on the Discord (Click the logo for an invite link):
 
 [![Pl-Hide Pro's Discord](https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg)]( https://discord.gg/N5GwQpU)
