@@ -24,7 +24,7 @@
 * [Bungeecord Config](Bungeecord-Config)
 * [Velocity Config](Velocity-Config)
 ***
-[API](API)
+* [API](API)
 ***
 More help is available on the Discord (Click the logo for an invite link):
 
