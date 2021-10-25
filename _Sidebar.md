@@ -17,7 +17,7 @@
   * [Inheritance](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance)
 * [Setup the autlisting command function per plugin for Spigot plugin commands in Bungeecord](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 * [Error-causing plugins](Error-causing-plugins)
-* [Plugin commands](Commands)
+* [Commands and Permissions](Commands-and-Permissions)
 
 ***
 * [Spigot Config](Spigot-Config)
