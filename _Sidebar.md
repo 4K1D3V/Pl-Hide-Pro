@@ -10,6 +10,7 @@
   * [Whitelist a command without subargs](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#qwhat-is-the-operator-)
   * [Add all command of a plugin automatically](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-can-i-automatically-add-all-commands-of-a-plugin)
   * [Add WorldEdit commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-add-worldedit-commands)
+  * [My groups aren't working like expected](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#i-think-my-groups-are-not-set-correctly)
 * [Groups explained](Group)
   * [Commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#commands)
   * [Tabcomplete](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#tabcomplete)
