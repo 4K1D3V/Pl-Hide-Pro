@@ -39,7 +39,7 @@ Replace Event with a valid Event
 
 `PlHideAPI.getEventManager().registerListener(new Listener());`
 
-### Get A PlHidePlayer
+### Get a PlHidePlayer
 
 `PlHideAPI.getPlayerManager().getPlHidePlayer(player);`
 
