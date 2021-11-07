@@ -25,7 +25,8 @@ Example2 (**whitelist**): If you list "cmd test" it will remove all subargs exce
 
 ## Groupmode
 
-The boolean **group-mode-commands** and **group-mode-tabcomplete** decides whether the list is a blacklist or whitelist, and should be used respectively e.g. group-mode-commands: blacklist
+The group mode decides whether the list is a blacklist or whitelist. By **default** the group mode is **whitelist**. If you want to change it to blacklist, you have to give the player a permission:
+For the commands it's **plhide.blacklist.commands** and for the tabcomplete it's **plhide.blacklist.tabcomplete**
 
 ## Server
 
