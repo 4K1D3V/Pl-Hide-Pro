@@ -1,4 +1,3 @@
-# **Wiki may be a bit outdated since version 2.0. Updated wiki will be there in the next days**
 
 # Introduction
 PL-Hide-Pro is a next level tab complete plugin which provides the best experience to all users who use this plugin. As this plugin is active and keeps getting new updates there is some possibility of facing bugs.<br/>Please, if you find any bug please report on the **Discord**, which you can also use to get more help.
