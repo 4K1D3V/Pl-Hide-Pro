@@ -1,46 +1,48 @@
-### Q: **How do I give a group access to another/multiple groups?**
+### **How do I give a group access to another/multiple groups?**
 
 
-A: You'll need to assign every group under "included-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
+You'll need to assign every group under "included-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
 ```  
   Admin:
     commands:
       - ban
-    group-mode-commands: whitelist
     tabcomplete:
       - ban
-    group-mode-tabcomplete: whitelist
     priority: 20
     included-groups:
       - default
       - Moderator
 ```
-**Note that groups are inherited recursively**. For example, if moderator also includes default, you don't have to inherit default for the Admin group as well.
-
-**Also the group modes are always taken from the parent group** 
-
-So in this case if you assign the Admin group to a player the group modes of commands and tabcomplete will be switched to whitelist for default, Moderator and their inherited groups
+**Note that groups are inherited recursively**. For example, if moderator also includes default, you don't have to inherit default for the Admin group as well. 
 
 ***
 
-### Q: **How do my players get pl-hide group permissions?**
+### **How do my players get pl-hide group permissions?**
 
 
-A: By default everyone gets the group "default" regardless of whether you assign it or not. Otherwise, you need to add the permission for example "**plhide.group.test**" to apply the group "Test". Be sure to not get confused with "pl-hide.group.test" as this could lead to failure.
+By default everyone gets the group "default" regardless of whether you assign it or not. Otherwise, you need to add the permission for example "**plhide.group.test**" to apply the group "Test". Be sure to not get confused with "pl-hide.group.test" as this could lead to failure.
 
 ***
 
-### Q: **What is a ```group mode```?**
+### **What is a ```group mode```?**
 
-A:If a group should block commands and remove these commands from the tab completion, set group-mode to blacklist.
+If a group should block commands and remove these commands from the tab completion, set group-mode to blacklist.
 
 Otherwise if group-mode is set to whitelist, only the listed commands will be executable and all not listed commands will be removed from the tabcomplete
 
 ***
 
-### Q:**What is the operator ```~```?**
+### **How to set the ```group mode```?**
 
-A:The operator ~ only works with whitelists
+By default the group mode is whitelist. If you want to change it to blacklist, you have to give the player a permission:
+  For the commands it's plhide.blacklist.commands and for the tabcomplete it's plhide.blacklist.tabcomplete
+ 
+
+***
+
+### **What is the operator ```~```?**
+
+The operator ~ only works with whitelists
 Examples:
 
 If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
@@ -49,19 +51,19 @@ If you list "help ~" in the "tabcomplete" list, /help is displayed without its s
 
 ***
 
-### Q: **Can I automatically add all commands of a plugin?**
+### **Can I automatically add all commands of a plugin?**
 
-A: Yes. Just add for example ```- plugin:WorldEdit``` to your list
+Yes. Just add for example ```- plugin:WorldEdit``` to your list
 If you use the Bungeecord version follow this [guide](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 
 ***
 
-### Q: **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
+### **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
 
-A: Use the ```debug: true``` section in the config.yml. Reload the plugin so it will show you where each group is being set. The debug log is located in the plhide folder.
+Use the ```debug: true``` section in the config.yml. Reload the plugin so it will show you where each group is being set. The debug log is located in the plhide folder.
 
 ***
 
-### Q: **How do i add worldedit commands?**
+### **How do i add worldedit commands?**
 
-A: There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand``` as an example.
+There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand``` as an example.
