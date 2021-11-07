@@ -47,11 +47,9 @@ Example group:
     commands:
      - command1
      - command2
-    group-mode-commands: whitelist/blacklist
     tabcomplete:
      - command1
      - command2
-    group-mode-tabcomplete: whitelist/blacklist
     priority: 0
     included-groups:
      - group1
