@@ -67,3 +67,12 @@ Use the ```debug: true``` section in the config.yml. Reload the plugin so it wil
 ### **How do i add worldedit commands?**
 
 There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand``` as an example.
+
+***
+
+### **I think my groups are not set correctly**
+
+- Check if the priority is correctly set.
+- Check if the servers list is correctly [Bungee/Velocity]
+- If you are using the Bungee/Velocity version, check that the permissions are set via a Bungee/Velocity permission manager and are set without context
+- If you have * or op you might also be always in the * and/or op group
