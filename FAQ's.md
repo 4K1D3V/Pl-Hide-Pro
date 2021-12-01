@@ -58,12 +58,6 @@ If you use the Bungeecord version follow this [guide](https://github.com/Nononit
 
 ***
 
-### **My groups aren't being set correctly, how do I check what permission group has what plhide group?**
-
-Use the ```debug: true``` section in the config.yml. Reload the plugin so it will show you where each group is being set. The debug log is located in the plhide folder.
-
-***
-
 ### **How do i add worldedit commands?**
 
 There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand``` as an example.
@@ -76,3 +70,4 @@ There's a common misconception that adding ```- /``` will work. It isn't going t
 - Check if the servers list is correctly [Bungee/Velocity]
 - If you are using the Bungee/Velocity version, check that the permissions are set via a Bungee/Velocity permission manager and are set without context
 - If you have * or op you might also be always in the * and/or op group
+- Execute /plhide check <playerName> for detailed information (might /plhide-bungee or /plhide-velocity depending where you installed plhide)
