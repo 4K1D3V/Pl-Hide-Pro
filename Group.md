@@ -35,11 +35,14 @@ The default value is "all".
 
 ## Inheritance
 
-In the "**included-groups**" section you can add other groups (The group type of the inherited groups is that of the parent group).
+In the "**included-groups**" section you can add other groups.
 The commands and tab completion from the "included groups" will be added to this group. Note that the implemented groups **implement their implemented groups**!​
 So the inheritance is recursive means: if you have, for example, 3 groups: Default, Moderator, Admin. Moderator inherits from Default and Admin inherits from Moderator, then Admin also inherits the Default group, since Moderator inherits it 
 
-**The group modes are always be taken from the parent group**
+## Group merging
+
+A player can also have several groups:
+If two or more groups have the same priority and the player has permission for them, all groups for which the player has permission will be applied
 
 Example group:
 ``` 
