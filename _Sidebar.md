@@ -17,6 +17,7 @@
   * [Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#groupmode)
   * [Server](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#server)
   * [Inheritance](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance)
+  * [Group merging](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#group-merging)
 * [Setup the autlisting command function per plugin for Spigot plugin commands in Bungeecord](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 * [Error-causing plugins](Error-causing-plugins)
 * [Commands and Permissions](Commands-and-Permissions)
