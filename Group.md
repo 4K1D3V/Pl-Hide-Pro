@@ -43,17 +43,3 @@ So the inheritance is recursive means: if you have, for example, 3 groups: Defau
 
 A player can also have several groups:
 If two or more groups have the same priority and the player has permission for them, all groups for which the player has permission will be applied
-
-Example group:
-``` 
-  groupName:
-    commands:
-     - command1
-     - command2
-    tabcomplete:
-     - command1
-     - command2
-    priority: 0
-    included-groups:
-     - group1
-```
