@@ -1,4 +1,4 @@
-### **How do I give a group access to another/multiple groups?**
+## **How to give access to another/multiple groups?**
 
 
 You'll need to assign every group under "included-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
@@ -15,32 +15,28 @@ You'll need to assign every group under "included-groups:". Meaning if you have 
 ```
 **Note that groups are inherited recursively**. For example, if moderator also includes default, you don't have to inherit default for the Admin group as well. 
 
-***
 
-### **How do my players get pl-hide group permissions?**
+
+## **How do my players get pl-hide group permissions?**
 
 
 By default everyone gets the group "default" regardless of whether you assign it or not. Otherwise, you need to add the permission for example "**plhide.group.test**" to apply the group "Test". Be sure to not get confused with "pl-hide.group.test" as this could lead to failure.
 
-***
 
-### **What is a ```group mode```?**
+## **What is a ```group mode```?**
 
 If a group should block commands and remove these commands from the tab completion, set group-mode to blacklist.
 
 Otherwise if group-mode is set to whitelist, only the listed commands will be executable and all not listed commands will be removed from the tabcomplete
 
-***
 
-### **How to set the ```group mode```?**
+## **How to set the ```group mode```?**
 
 By default the group mode is whitelist. If you want to change it to blacklist, you have to give the player a permission:
   For the commands it's plhide.blacklist.commands and for the tabcomplete it's plhide.blacklist.tabcomplete
  
 
-***
-
-### **What is the operator ```~```?**
+## **What is the operator ```~```?**
 
 The operator ~ only works with whitelists
 Examples:
@@ -49,22 +45,19 @@ If you list "help ~" in the command list, /help can only be executed without its
 
 If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
 
-***
 
-### **Can I automatically add all commands of a plugin?**
+## **Add all commands of a plugin automatically?**
 
 Yes. Just add for example ```- plugin:WorldEdit``` to your list
 If you use the Bungeecord version follow this [guide](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 
-***
 
-### **How do i add worldedit commands?**
+## **Add worldedit commands?**
 
 There's a common misconception that adding ```- /``` will work. It isn't going to work because that isn't a command. Instead use ```- /wand``` as an example.
 
-***
 
-### **I think my groups are not set correctly**
+## **I think my groups are not set correctly**
 
 - Check if the priority is correctly set.
 - Check if the servers list is correctly [Bungee/Velocity]
