@@ -2,12 +2,12 @@
 
 Each group needs a different **groupname**.
 
-To add a specific group to a user, add the permission **plhide.group.{groupname}**. If a player has **2 groups** permissions, then the group is set depending on the **priority** (the higher the number, the higher the priority)
-With the Bungeecord plugin you can choose on which servers the groups should be applied.
+To add a specific group to a user, add the permission **plhide.group.{groupname}**. If a player has **2 groups** permissions, then the group is set depending on the **priority** (the higher the number, the higher the priority). If they have the same priority booth groups will be applied (they get merged)
+With the Bungeecord/Velocity plugin you can also choose on which servers the groups should be used.
 
 ## Commands
 
-The "**commands**" **section** lists the commands that can either be blocked or executed exclusively. List subcommads is also possible:
+The "**commands**" **section** lists the commands that can either be blocked or executed exclusively. Listing subcommads is also possible:
 
 Example1 (**blacklist**): If you list "cmd test" it will block "cmd test" and its subargs ("cmd test <args>"), but it will not block "cmd" or "cmd help"
 
@@ -30,7 +30,7 @@ For the commands it's **plhide.blacklist.commands** and for the tabcomplete it's
 
 ## Server
 
-If you are using the Bungeecord plugin, there is another list called **servers**. Here you add the server names on which the group can only be inherited or applied. 
+If you are using the Bungeecord/Velocity plugin, there is another list called **servers**. Here you add the server names on which the group can only be inherited or applied. 
 The default value is "all".
 
 ## Inheritance
