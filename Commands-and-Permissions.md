@@ -12,4 +12,5 @@
 | - | Unblock plugin-named commands for execution | plhide.unblock-plugin-named-commands.execution |
 | - | Unblock plugin-named commands for tabcomplete| plhide.unblock-plugin-named-commands.tabcomplete |
 
-### For the Bungeecord plugin the command is /plhide-bungee.
+For the **Bungeecord** plugin the command is **/plhide-bungee** <br>
+For the **Velocity** plugin the command is **/plhide-velocity**
