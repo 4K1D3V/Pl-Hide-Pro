@@ -5,12 +5,17 @@
 #
 
 #Config version. Don't change!
-version: "2"
+version: 3
 
 debug: false
 
 #Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass.pl-message will see the real plugins
 /pl-message: 'Plugins (0):'
+
+#Changes the server brand in the upper left of the f3 debug screen
+#Use %server% to display the server name of the mc server.
+f3-server-brand: '&3Plugin&7-&3Hide&7-&6Pro'
+replace-f3-server-brand: true
 
 #Stay on the newest version to get better features!
 #Enable or disable automatic ingame update notification on join
@@ -47,7 +52,7 @@ groups:
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
-    #The message if you type a blocked command | Enter none to disable
+    #The message if you type a blocked command | Enter none to disable | %player% will be replaced with the playername
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     #Minecraft server names on which this group will be applied | all means on every server.
     #type /servers in Bungeecord to find out which servernames are available
@@ -71,14 +76,14 @@ groups:
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     included-groups: [ ]
 
-  #This group will be added automatically if you have * permissions
-  #Do not rename or delete this group
-  "*":
-    commands: [ ]
-    tabcomplete: [ ]
-    servers:
-      - all
-    priority: 10
-    blocked-command-message: "Unknown command. Type \"/help\" for help."
-    
+  #This group will be added AUTOMATICALLY if you have * permissions
+  #Leave it commented out to keep it disabled
+#  "*":
+#    commands: []
+#    tabcomplete: []
+#    servers:
+#      - all
+#    priority: 10
+#    blocked-command-message: "Unknown command. Type \"/help\" for help."
+#    included-groups: []
 ```
