@@ -5,7 +5,7 @@
 #
 
 #Config version. Don't change!
-version: "8"
+version: 8
 
 debug: false
 
@@ -62,7 +62,7 @@ groups:
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
-    #The message if you type a blocked command | Enter none to disable
+    #The message if you type a blocked command | Enter none to disable | %player% will be replaced with the playername
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     #Minecraft server names on which this group will be applied | all means on every server.
     #type /servers in Bungeecord to find out which servernames are available
@@ -78,22 +78,23 @@ groups:
   #This group will remove all commands from the tab complete and block them from being executed
   #Give the player the plhide.group.test permission to use the group
   Test:
-    commands: [ ]
-    tabcomplete: [ ]
+    commands: []
+    tabcomplete: []
     servers:
       - lobby
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: [ ]
-  #This group will be added automatically if you have * permissions
-  #Do not rename or delete this group
-  "*":
-    commands: [ ]
-    tabcomplete: [ ]
-    servers:
-      - all
-    priority: 10
-    blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: [ ]
+    included-groups: []
+
+  #This group will be added AUTOMATICALLY if you have * permissions
+  #Leave it commented out to keep it disabled
+#  "*":
+#    commands: []
+#    tabcomplete: []
+#    servers:
+#      - all
+#    priority: 10
+#    blocked-command-message: "Unknown command. Type \"/help\" for help."
+#    included-groups: []
 
 ```
