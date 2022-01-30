@@ -15,7 +15,7 @@
 <dependency>
     <groupId>eu.nononitas</groupId>
     <artifactId>Pl-Hide-Pro-API</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <scope>provided</scope>
 </dependency>
 ```
