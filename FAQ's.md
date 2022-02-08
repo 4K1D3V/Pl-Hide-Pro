@@ -64,3 +64,16 @@ There's a common misconception that adding ```- /``` will work. It isn't going t
 - If you are using the Bungee/Velocity version, check that the permissions are set via a Bungee/Velocity permission manager and are set without context
 - If you have * or op you might also be always in the * and/or op group
 - Execute /plhide check <playerName> for detailed information (might /plhide-bungee or /plhide-velocity depending where you installed plhide)
+
+## **Create a bypass group**
+
+If you want to create a group where neither commands nor tabcomplete is blocked, create a group as shown below
+```  
+  Bypass:
+    commands: []
+    tabcomplete: []
+    priority: 20 
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
+    included-groups: []
+```
+Now give the user the permission plhide.group.bypass and the permission plhide.blacklist.*
