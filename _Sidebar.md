@@ -20,6 +20,7 @@
   * [Add all command of a plugin automatically](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-can-i-automatically-add-all-commands-of-a-plugin)
   * [Add WorldEdit commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-add-worldedit-commands)
   * [My groups aren't working like expected](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#i-think-my-groups-are-not-set-correctly)
+  * [Create a bypass group](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#create-a-bypass-group)
 * [Error-causing plugins](Error-causing-plugins)
 
 ***
