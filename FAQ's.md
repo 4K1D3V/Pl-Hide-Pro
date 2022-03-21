@@ -45,6 +45,16 @@ If you list "help ~" in the command list, /help can only be executed without its
 
 If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
 
+## **What is the operator ```*```?**
+
+The * stands for every possible word
+Examples:
+
+Using whitelist mode:
+If you list "ban * test" it's allowed to execute /ban player test but or /ban Nononitas test but it's not allowed to execute /ban Nononitas Hello (same with the tabcompletion)
+
+Using blacklist mode:
+If you list "ban * test" /ban player test is blocked or /ban Nononitas test is blocked but not /ban Nononitas Hello
 
 ## **Add all commands of a plugin automatically?**
 
