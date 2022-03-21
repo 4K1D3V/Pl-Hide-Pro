@@ -17,6 +17,7 @@
   * [Groupmode meaning](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-what-is-a-group-mode)
   * [How to set the Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-set-the-group-mode)
   * [What is the operator ~](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#qwhat-is-the-operator-)
+  * [What is the operator *](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#qwhat-is-the-operator--1)
   * [Add all command of a plugin automatically](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-can-i-automatically-add-all-commands-of-a-plugin)
   * [Add WorldEdit commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-add-worldedit-commands)
   * [My groups aren't working like expected](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#i-think-my-groups-are-not-set-correctly)
