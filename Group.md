@@ -35,8 +35,8 @@ The default value is "all".
 
 ## Inheritance
 
-In the "**included-groups**" section you can add other groups.
-The commands and tab completion from the "included groups" will be added to this group. Note that the implemented groups **implement their implemented groups**!​
+In the "**inherited-groups**" section you can add other groups.
+The commands and tab completion from the "inherited groups" will be added to this group. Note that the implemented groups **implement their implemented groups**!​
 So the inheritance is recursive means: if you have, for example, 3 groups: Default, Moderator, Admin. Moderator inherits from Default and Admin inherits from Moderator, then Admin also inherits the Default group, since Moderator inherits it 
 
 ## Group merging
