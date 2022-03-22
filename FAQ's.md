@@ -27,13 +27,13 @@ By default everyone gets the group "default" regardless of whether you assign it
 
 If a group should block commands and remove these commands from the tab completion, set group-mode to blacklist.
 
-Otherwise if group-mode is set to whitelist, only the listed commands will be executable and all not listed commands will be removed from the tabcomplete
+Otherwise if group-mode is set to whitelist, only the listed commands will be executable and all not listed commands will be removed from the tab complete
 
 
 ## **How to set the ```group mode```?**
 
 By default the group mode is whitelist. If you want to change it to blacklist, you have to give the player a permission:
-  For the commands it's plhide.blacklist.commands and for the tabcomplete it's plhide.blacklist.tabcomplete
+  For the commands it's plhide.blacklist.commands and for the tab complete it's plhide.blacklist.tabcomplete
  
 
 ## **What is the operator ```~```?**
@@ -51,11 +51,11 @@ The * stands for every possible word. You can only use them in subargs, so listi
 <br>Examples:
 
 Using whitelist mode:
-<br>If you list "ban * test" it's allowed to execute `/ban player test` but or `/ban Nononitas test` but it's not allowed to execute `/ban Nononitas Hello` (same with the tabcompletion)
+<br>If you list "ban * test" it's allowed to execute `/ban player test` but or `/ban Nononitas test` but it's not allowed to execute `/ban Nononitas Hello` (same with the tab completion)
 You are also allowed to execute `/ban player test Lol` but you are not allowed to execute `/ban player Lol Hello`
 
 Using blacklist mode:
-<br>If you list "ban * test" `/ban player test` is blocked or `/ban Nononitas test` is blocked but not `/ban Nononitas Hello`  (same with the tabcompletion)
+<br>If you list "ban * test" `/ban player test` is blocked or `/ban Nononitas test` is blocked but not `/ban Nononitas Hello`  (same with the tab completion)
 `/ban player test Lol` is also blocked, but `/ban player Lol Hello` is not
 
 ## **Add all commands of a plugin automatically?**
@@ -79,7 +79,7 @@ There's a common misconception that adding ```- /``` will work. It isn't going t
 
 ## **Create a bypass group**
 
-If you want to create a group where neither commands nor tabcomplete is blocked, create a group as shown below
+If you want to create a group where neither commands nor tab complete is blocked, create a group as shown below
 ```  
   Bypass:
     commands: []
@@ -90,5 +90,5 @@ If you want to create a group where neither commands nor tabcomplete is blocked,
 ```
 Now give the user the permission plhide.group.bypass and the permission plhide.blacklist.*
 
-## **Tabcompletion with a space**
+## **Tab completion with a space**
 If you have a tab completion where you can tab `command arg` as an entry, you cannot list the entry the default way. Instead you need to list it like `commands%space%arg`
