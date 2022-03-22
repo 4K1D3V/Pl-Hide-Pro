@@ -89,3 +89,6 @@ If you want to create a group where neither commands nor tabcomplete is blocked,
     inherited-groups: []
 ```
 Now give the user the permission plhide.group.bypass and the permission plhide.blacklist.*
+
+## **Tabcompletion with a space**
+If you have a tab completion where you can tab `command arg` as an entry, you cannot list the entry the default way. Instead you need to list it like `commands%space%arg`
