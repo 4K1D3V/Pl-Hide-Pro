@@ -32,6 +32,7 @@ For the commands it's **plhide.blacklist.commands** and for the tabcomplete it's
 
 If you are using the Bungeecord/Velocity plugin, there is another list called **servers**. Here you add the server names on which the group can only be inherited or applied. 
 The default value is "all".
+Regex is also supported.
 
 ## Inheritance
 
