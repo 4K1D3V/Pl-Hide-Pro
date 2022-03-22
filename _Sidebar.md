@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.postimg.cc/yYbG6j1s/Icon.png" width="200" height="200"></p>
+<p align="center"><img src="https://i.postimg.cc/yYbG6j1s/Icon.png" width="150" height="150"></p>
 
 ## Pl-Hide Pro
 
