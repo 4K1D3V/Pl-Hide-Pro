@@ -5,7 +5,7 @@
 #
 
 #Config version. Don't change!
-version: 8
+version: 9
 
 debug: false
 
@@ -68,11 +68,11 @@ groups:
     #type /servers in Bungeecord to find out which servernames are available
     servers:
       - all
-    #Here you can add other groups: The commands and tab completion from the "included groups" will be added to this group
+    #Here you can add other groups: The commands and tab completion from the "inherited groups" will be added to this group
     #Read more here https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance
     #The group modes are taken from the parent group, in this case the parent group is "default"
     #The group is only inherited if a server in the "servers" list of the subordinate group matches the player's server
-    included-groups:
+    inherited-groups:
       - Test
 
   #This group will remove all commands from the tab complete and block them from being executed
@@ -84,7 +84,7 @@ groups:
       - lobby
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: []
+    inherited-groups: []
 
   #This group will be added AUTOMATICALLY if you have * permissions
   #Leave it commented out to keep it disabled
@@ -95,6 +95,6 @@ groups:
 #      - all
 #    priority: 10
 #    blocked-command-message: "Unknown command. Type \"/help\" for help."
-#    included-groups: []
+#    inherited-groups: []
 
 ```
