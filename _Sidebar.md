@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.discordapp.com/attachments/714088607161384980/714952041700655134/Nono_trans.png" width="85" height="85" title="IridiumSkyblock"></p>
+<p align="center"><img src="https://i.postimg.cc/yYbG6j1s/Icon.png" width="200" height="200"></p>
 
 ## Pl-Hide Pro
 
