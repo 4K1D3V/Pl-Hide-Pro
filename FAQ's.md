@@ -1,7 +1,7 @@
 ## **How to give access to another/multiple groups?**
 
 
-You'll need to assign every group under "included-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
+You'll need to assign every group under "inherited-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
 ```  
   Admin:
     commands:
@@ -9,11 +9,11 @@ You'll need to assign every group under "included-groups:". Meaning if you have 
     tabcomplete:
       - ban
     priority: 20
-    included-groups:
+    inherited-groups:
       - default
       - Moderator
 ```
-**Note that groups are inherited recursively**. For example, if moderator also includes default, you don't have to inherit default for the Admin group as well. 
+**Note that groups are inherited recursively**. For example, if moderator also inherits default, you don't have to inherit default for the Admin group as well. 
 
 
 
@@ -86,6 +86,6 @@ If you want to create a group where neither commands nor tabcomplete is blocked,
     tabcomplete: []
     priority: 20 
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: []
+    inherited-groups: []
 ```
 Now give the user the permission plhide.group.bypass and the permission plhide.blacklist.*
