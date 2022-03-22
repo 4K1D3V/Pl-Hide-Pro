@@ -39,7 +39,7 @@ By default the group mode is whitelist. If you want to change it to blacklist, y
 ## **What is the operator ```~```?**
 
 The operator ~ only works with whitelists
-Examples:
+<br>Examples:
 
 If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
 
@@ -47,14 +47,16 @@ If you list "help ~" in the "tabcomplete" list, /help is displayed without its s
 
 ## **What is the operator ```*```?**
 
-The * stands for every possible word
-Examples:
+The * stands for every possible word. You can only use them in subargs, so listing "* test" or "*" won't work
+<br>Examples:
 
 Using whitelist mode:
-If you list "ban * test" it's allowed to execute /ban player test but or /ban Nononitas test but it's not allowed to execute /ban Nononitas Hello (same with the tabcompletion)
+<br>If you list "ban * test" it's allowed to execute `/ban player test` but or `/ban Nononitas test` but it's not allowed to execute `/ban Nononitas Hello` (same with the tabcompletion)
+You are also allowed to execute `/ban player test Lol` but you are not allowed to execute `/ban player Lol Hello`
 
 Using blacklist mode:
-If you list "ban * test" /ban player test is blocked or /ban Nononitas test is blocked but not /ban Nononitas Hello
+<br>If you list "ban * test" `/ban player test` is blocked or `/ban Nononitas test` is blocked but not `/ban Nononitas Hello`  (same with the tabcompletion)
+`/ban player test Lol` is also blocked, but `/ban player Lol Hello` is not
 
 ## **Add all commands of a plugin automatically?**
 
