@@ -1,7 +1,6 @@
 
-## For intense help open a discord Ticket. This is just a small overview with very little explanation
+## For intense help open a Discord ticket. This is just a small overview with very little explanation
 
-***
 
 ### Include API 
 
