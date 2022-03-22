@@ -5,7 +5,7 @@
 #
 
 #Config version. Don't change!
-version: 10
+version: 11
 
 debug: false
 
@@ -72,10 +72,10 @@ groups:
     priority: 0
     #The message if you type a blocked command | Enter none to disable | %player% will be replaced with the playername
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    #Here you can add other groups: The commands and tab completion from the "included groups" will be added to this group
+    #Here you can add other groups: The commands and tab completion from the "inherited groups" will be added to this group
     #Read more here https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance
     #The group modes are taken from the parent group, in this case the parent group is "default"
-    included-groups:
+    inherited-groups:
       - exampleGroup
 
   #This group will remove all commands from the tab complete and block them from being executed
@@ -85,7 +85,7 @@ groups:
     tabcomplete: []
     priority: 1
     blocked-command-message: "Unknown command. Type \"/help\" for help."
-    included-groups: []
+    inherited-groups: []
   #This group will be added AUTOMATICALLY if you are an operator
   #Leave it commented out to keep it disabled
 #  op:
@@ -93,7 +93,7 @@ groups:
 #    tabcomplete: []
 #    priority: 10
 #    blocked-command-message: "Unknown command. Type \"/help\" for help."
-#    included-groups: []
+#    inherited-groups: []
   #This group will be added AUTOMATICALLY if you have * permissions
   #Leave it commented out to keep it disabled
 #  "*":
@@ -101,6 +101,6 @@ groups:
 #    tabcomplete: []
 #    priority: 11
 #    blocked-command-message: "Unknown command. Type \"/help\" for help."
-#    included-groups: []
+#    inherited-groups: []
 
 ```
