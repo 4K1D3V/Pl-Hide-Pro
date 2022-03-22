@@ -51,7 +51,7 @@ The * stands for every possible word. You can only use them in subargs, so listi
 <br>Examples:
 
 Using whitelist mode:
-<br>If you list "ban * test" it's allowed to execute `/ban player test` but or `/ban Nononitas test` but it's not allowed to execute `/ban Nononitas Hello` (same with the tab completion)
+<br>If you list "ban * test" it's allowed to execute `/ban player test` or `/ban Nononitas test` but it's not allowed to execute `/ban Nononitas Hello` (same with the tab completion)
 You are also allowed to execute `/ban player test Lol` but you are not allowed to execute `/ban player Lol Hello`
 
 Using blacklist mode:
