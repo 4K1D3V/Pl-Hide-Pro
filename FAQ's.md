@@ -88,7 +88,7 @@ If you want to create a group where neither commands nor tab complete is blocked
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     inherited-groups: []
 ```
-Now give the user the permission plhide.group.bypass and the permission plhide.blacklist.*
+Now give the user the permissions plhide.group.bypass, plhide.blacklist.* and plhide.unblock-plugin-named-commands.*
 
 ## **Tab completion with a space**
 If you have a tab completion where you can tab `command arg` as an entry, you cannot list the entry the default way. Instead you need to list it like `commands%space%arg`
