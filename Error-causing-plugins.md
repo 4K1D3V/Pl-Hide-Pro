@@ -20,3 +20,18 @@ Make sure you set this to false in the config
 tabcompletedisable:
    enabled: false
 ```
+
+***
+
+### **MyCommand**
+
+Make sure you register the commands:
+
+```
+example_command: 
+  command: /example
+  type: TEXT
+  text:
+  - '&2Example command'
+  register: true # <--- Must be true to be visible in tabcomplete by default
+```
