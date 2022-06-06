@@ -11,6 +11,7 @@
   * [Inheritance](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance)
   * [Group merging](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#group-merging)
 * [Commands and Permissions](Commands-and-Permissions)
+* [Lists](Lists)
 * [Setup the autlisting command function per plugin for Spigot plugin commands in Bungeecord](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 * [FAQ's](FAQ's)
   * [Give access to another/multiple groups](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-give-a-group-access-to-anothermultiple-groups)
