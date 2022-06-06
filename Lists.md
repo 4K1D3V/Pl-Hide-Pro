@@ -25,7 +25,7 @@ anotherList:
 
 ## How can I use a list?
 
-To use a list write list:listName into the commands or tabcomplete list
+To use a list write `list:listName` into the commands or tabcomplete list
 
 For example:
 
