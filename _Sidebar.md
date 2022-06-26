@@ -27,12 +27,11 @@
 * [Error-causing plugins](Error-causing-plugins)
 
 ***
+* [API](API)
+***
 * [Spigot Config](Spigot-Config)
 * [Bungeecord Config](Bungeecord-Config)
 * [Velocity Config](Velocity-Config)
-
-***
-* [API](API)
 ***
 More help is available on the Discord (Click the logo for an invite link):
 
