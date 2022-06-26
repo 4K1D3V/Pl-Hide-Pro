@@ -5,6 +5,7 @@
 | /plhide help| Additional information | - |
 | /plhide updatecheck| Checks if there is a newer version | plhide.reload |
 | /plhide check <playerName> | Retrieves information about the player, like group mode or current group | plhide.reload |
+| /plhide updategroup <playerName> | Updates the group for the player | plhide.reload |
 | - | Displays the actual plugins | plhide.bypass.pl-message |
 | - | Assign a Pl Hide group | plhide.group.{groupname} |
 | - | Change group mode to blacklist for commands | plhide.blacklist.commands |
