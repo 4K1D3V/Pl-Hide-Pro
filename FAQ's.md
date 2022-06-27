@@ -60,7 +60,7 @@ Same for the tab completion
 
 ## **Add all commands of a plugin automatically?**
 
-Yes. Just add for example ```- plugin:WorldEdit``` to your list
+Yes. Just add for example ```- plugin:WorldEdit``` to your list<br>
 If you use the Bungeecord version follow this [guide](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
 
 
