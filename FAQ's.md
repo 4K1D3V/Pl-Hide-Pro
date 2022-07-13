@@ -45,6 +45,16 @@ If you list "help ~" in the command list, /help can only be executed without its
 
 If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
 
+If you want the base command and only some subargs of the command to be executable, then you also need the "~" after the base command:
+For example, you have the warp command with the subargs admin, test, player, city
+Then if you would like to allow /warp, /warp player, and /warp city to be executable, you would list it like this:
+```
+commands:
+  - warp ~
+  - warp player
+  - warp city
+```
+
 ## **What is the operator ```*```?**
 
 The * stands for every possible word. You can only use them in subargs, so listing "* test" or "*" won't work
