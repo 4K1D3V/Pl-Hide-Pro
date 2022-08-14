@@ -25,7 +25,7 @@ tabcompletedisable:
 
 ### **MyCommand**
 
-Make sure you register the commands:
+Make sure you register the command:
 
 ```
 example_command: 
@@ -35,3 +35,9 @@ example_command:
   - '&2Example command'
   register: true # <--- Must be true to be visible in tabcomplete by default
 ```
+
+### **DeluxeMenus**
+
+Make sure you register the command:
+
+See [DeluxeMenus's wiki](https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/gui#register-command)
