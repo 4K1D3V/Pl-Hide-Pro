@@ -36,6 +36,8 @@ example_command:
   register: true # <--- Must be true to be visible in tabcomplete by default
 ```
 
+***
+
 ### **DeluxeMenus**
 
 Make sure you register the command:
