@@ -36,24 +36,23 @@ By default the group mode is whitelist. If you want to change it to blacklist, y
   For the commands it's plhide.blacklist.commands and for the tab complete it's plhide.blacklist.tabcomplete
  
 
-## **What is the operator ```~```?**
+## **How to block all subargs of a command in whitelist mode?**
+That's what the "\~" character is for. It blocks everything from the "\~" character.
+<br><br>
+For example: If you whitelist "help ~" you can only execute "/help" but not "/help 1", same with the tabcompletion. It's also not possible to execute for "/help 1 1"
 
-The operator ~ only works with whitelists
-<br>Examples:
+## **How to allow the base command and some subargs?**"
 
-If you list "help ~" in the command list, /help can only be executed without its subarguments, "/ help ?" can't be executed.
-
-If you list "help ~" in the "tabcomplete" list, /help is displayed without its subarguments, "/ help ?" will not be visible.
-
-If you want the base command and only some subargs of the command to be executable, then you also need the "~" after the base command:
+If you want the base command and only some subargs of the command to be executable, then you need the "\~" after the base command:
 For example, you have the warp command with the subargs admin, test, player, city
-Then if you would like to allow /warp, /warp player, and /warp city to be executable, you would list it like this:
+Then if you would like to allow "/warp", "/warp player", and "/warp city" to be executable, you would list it like this:
 ```
 commands:
   - warp ~
   - warp player
   - warp city
 ```
+The same applies to the tabcomplete
 
 ## **What is the operator ```*```?**
 
