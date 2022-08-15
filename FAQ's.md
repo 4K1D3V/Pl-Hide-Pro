@@ -100,4 +100,4 @@ If you want to create a group where neither commands nor tab complete is blocked
 Now give the user the permissions plhide.group.bypass, plhide.blacklist.* and plhide.unblock-plugin-named-commands.*
 
 ## **Tab completion with a space**
-If you have a tab completion where you can tab `command arg` as one entry, you cannot list the entry the default way. Instead you need to list it like `commands%space%arg`
+If you have a tab completion where you can tab `command arg` as **one entry**, you cannot list the entry the default way. Instead you need to list it like `commands%space%arg`
