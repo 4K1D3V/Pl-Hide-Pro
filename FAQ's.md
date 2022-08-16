@@ -43,7 +43,7 @@ For example: If you whitelist "help \~" you can only execute "/help" but not "/h
 
 ## **How to allow the base command and some subargs?**
 
-If you want the base command and only some subargs of the command to be executable, then you need the "\~" after the base command:
+If you are using whitelist mode and want the base command and only some subargs of the command to be executable, then you need the "\~" after the base command:
 For example, you have the warp command with the subargs admin, test, player, city
 Then if you would like to allow "/warp", "/warp player", and "/warp city" to be executable, you would list it like this:
 ```
