@@ -19,7 +19,7 @@
   * [How to set the Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-set-the-group-mode)
   * [How to block all subargs of a command in whitelist mode?](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-block-all-subargs-of-a-command-in-whitelist-mode)
   * [How to allow the base command and some subargs?](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-allow-the-base-command-and-some-subargs)
-  * [What is the operator *](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#what-is-the-operator--1)
+  * [What is the operator *](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#what-is-the-operator-)
   * [Add all command of a plugin automatically](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-can-i-automatically-add-all-commands-of-a-plugin)
   * [Add WorldEdit commands](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-add-worldedit-commands)
   * [My groups aren't working like expected](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#i-think-my-groups-are-not-set-correctly)
