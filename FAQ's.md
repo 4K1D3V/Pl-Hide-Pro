@@ -41,7 +41,7 @@ That's what the "\~" character is for. It blocks everything from the "\~" charac
 <br><br>
 For example: If you whitelist "help \~" you can only execute "/help" but not "/help 1", same with the tabcompletion. It's also not possible to execute for "/help 1 1"
 
-## **How to allow the base command and some subargs?**
+## **How to allow the base command and some subargs? [Only for the commands lists]**
 
 If you are using whitelist mode and want the base command and only some subargs of the command to be executable, then you need the "\~" after the base command:
 For example, you have the warp command with the subargs admin, test, player, city
@@ -52,7 +52,6 @@ commands:
   - warp player
   - warp city
 ```
-The same applies to the tabcomplete
 
 ## **What is the operator ```*```?**
 
