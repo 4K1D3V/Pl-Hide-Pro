@@ -26,8 +26,6 @@
   * [Create a bypass group](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#create-a-bypass-group)
   * [Tab completion with a space](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#tab-completion-with-a-space)
 * [Error-causing plugins](Error-causing-plugins)
-
-***
 * [API](API)
 ***
 * [Spigot Config](Spigot-Config)
