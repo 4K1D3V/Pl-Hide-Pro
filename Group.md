@@ -73,5 +73,5 @@ So the inheritance is recursive means: if you have, for example, 3 groups: Defau
 
 ## Group merging
 
-A player can also have several groups:
+A player can also have multiple parent groups at the same time:
 If two or more groups have the same priority and the player has permission for them, all groups for which the player has permission will be applied
