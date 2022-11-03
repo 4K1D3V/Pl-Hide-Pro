@@ -28,11 +28,42 @@ Example2 (**whitelist**): If you list "cmd test" it will remove all subargs exce
 The group mode decides whether the list is a blacklist or whitelist. By **default** the group mode is **whitelist**. If you want to change it to blacklist, you have to give the player a permission:
 For the commands it's **plhide.blacklist.commands** and for the tabcomplete it's **plhide.blacklist.tabcomplete**
 
-## Server
+## Enabled Servers
 
-If you are using the Bungeecord/Velocity plugin, there is another list called **servers**. Here you add the server names on which the group can only be inherited or applied. 
+If you are using the Bungeecord/Velocity plugin, there is another list called **enabled_servers**. Here you add the server names on which the group is enabled.
 The default value is "all".
 Regex is also supported.
+
+## Servers
+This option is only available if using the Bungeecord/Velocity version<br>
+Here you can add server names to have different commands/tabcomplete on different servers<br>
+
+```
+  example:
+    servers:
+      #If no matching server could be found (for example creative) this key will be used.
+      fallback:
+        commands: [ ]
+        tabcomplete: [ ]
+      #Commands listed here will be added to servers where the name starts with "Lobby-" (for example "Lobby-1", "Lobby-230")
+      "Lobby-.*":
+        commands: [ ]
+        tabcomplete: [ ]
+      #Commands listed here will only be added to the server with the name "Survival"
+      Survival:
+        commands: [ ]
+        tabcomplete: [ ]
+      #Commands listed here will be added to every other server automatically. This key (all) is optionally
+      all:
+        commands: [ ]
+        tabcomplete: [ ]
+      #Option for which servers the group should be enabled
+    enabled_servers:
+      - all
+    priority: 1
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
+    inherited-groups: [ ]
+```
 
 ## Inheritance
 
