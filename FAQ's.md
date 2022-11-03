@@ -2,6 +2,7 @@
 
 
 You'll need to assign every group under "inherited-groups:". Meaning if you have ranks e.g.Admin, Moderator and Default, this is how you'd assign 2 groups to the group Admin:
+(Config from the Spigot version)
 ```  
   Admin:
     commands:
@@ -88,6 +89,8 @@ There's a common misconception that adding ```- /``` will work. It isn't going t
 ## **Create a bypass group**
 
 If you want to create a group where neither commands nor tab complete is blocked, create a group as shown below
+
+Spigot:
 ```  
   Bypass:
     commands: []
@@ -96,6 +99,20 @@ If you want to create a group where neither commands nor tab complete is blocked
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     inherited-groups: []
 ```
+Bungee/Velocity:
+```  
+  Bypass:
+    servers: 
+      all:
+        commands: []
+        tabcomplete: []
+    enabled_servers:
+      - all
+    priority: 20 
+    blocked-command-message: "Unknown command. Type \"/help\" for help."
+    inherited-groups: []
+```
+
 Now give the user the permissions plhide.group.bypass, plhide.blacklist.* and plhide.unblock-plugin-named-commands.*
 
 ## **Tab completion with a space**
