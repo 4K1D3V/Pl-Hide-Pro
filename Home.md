@@ -7,7 +7,7 @@ Pl-Hide-Pro is a next level tab complete plugin which provides the best experien
 </a>
 
 # Installing the plugin:
-* If you have a Spigot/Paper server, install the plugin there with [ProtocolLib](https://www.spigotmc.org/resources/1997/)
+* If you have a Spigot/Paper server, install the plugin there with [ProtocolLib](https://ci.dmulloy2.net/job/ProtocolLib/lastBuild/)
 * If you have a Bungeecord/Waterfall proxy, install the plugin there only and install [Protocolize](https://www.spigotmc.org/resources/63778/) and a permission manager (LuckpermsBungee) as well. Don't install it in the Spigot/Paper servers.
 * If you have a Velocity proxy, install the plugin there only and install [Protocolize](https://www.spigotmc.org/resources/63778/) and a permission manager (LuckpermsVelocity) as well. Don't install it in the Spigot/Paper servers.  
 
