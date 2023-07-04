@@ -67,11 +67,11 @@ Using blacklist mode:
 
 Same for the tab completion
 
-## **Add all commands of a plugin automatically?**
+## **Add all commands of a plugin automatically**
 
-Yes. Just add for example ```- plugin:WorldEdit``` to your list<br>
-If you use the Bungeecord version follow this [guide](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord)
-
+You can add all commands from a plugin with this entry `plugin:<PluginName>`<br>
+For example with WorldEdit it would be this entry `plugin:WorldEdit`<br>
+**Note**: Some plugins might not work as they don't register their commands via the Bukkit or Bungeecord API. This feature also doesn't work for Velocity plugins.
 
 ## **Add worldedit commands?**
 
