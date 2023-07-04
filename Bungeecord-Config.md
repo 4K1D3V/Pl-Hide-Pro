@@ -21,14 +21,7 @@ replace-f3-server-brand: true
 #Enable or disable automatic ingame update notification on join
 update-notify: true
 
-#If you want to use the feature "plugin:<pluginName> make sure you installed Pl-Hide-Pro on the MC-Servers and enabled bungee-mode
-#Read here for more details https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord
-bungee-mode: false
-#Only change this ip if you know what you are doing. If you are using a vserver (not a gameserver) you might be able to use 127.0.0.1 instead
-ip: 0.0.0.0
-#If the ip is other than 127.0.0.1, make sure the port is open
-#Do NOT change the port unless you are 100% sure what you are doing. In most cases it is recommended to leave the default value
-port: 1550
+#If you want to use the feature "plugin:<pluginName> make sure you installed Pl-Hide-Pro on the MC-Servers
 
 
 groups:
@@ -116,4 +109,5 @@ groups:
 #    priority: 10
 #    blocked-command-message: "Unknown command. Type \"/help\" for help."
 #    inherited-groups: []
+
 ```
