@@ -11,6 +11,8 @@
 * Pl-Hide-Pro
 * [Protocolize](https://www.spigotmc.org/resources/63778/) 
 * A permission manager (Luckperms)
-* `Pl-Hide-Pro on the Paper server as well`. Make sure to **enable** the `'proxy-mode'` option in the plugin configuration on the Paper server.
+* `Pl-Hide-Pro on the Paper server as well`. 
+  * **Enable** the `'proxy-mode'` option in the plugin configuration on the Paper server.
+  * Restart the Paper server
 
 # More Information at the right side of this page.
