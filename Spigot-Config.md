@@ -1,11 +1,11 @@
 ```
 #
-#More information about how to setup the plugin can be found in the wiki
+#More information about how to set up the plugin can be found in the wiki
 # https://github.com/Nononitas/Plugin-Hide-Pro/wiki
 #
 
 #Config version. Don't change!
-version: 11
+version: 12
 
 debug: false
 
@@ -30,14 +30,9 @@ replace-f3-server-brand: true
 #Enable or disable automatic ingame update notification on join
 update-notify: true
 
-#Set true if you are using the bungeecord version and want to block commands via plugin:<pluginname> on the bungee version
-#If true the groupsystem in this config will be disabled
-bungee-mode: false
-
-#If the proxy has a different ip and enter the proxys ip
-ip: 127.0.0.1
-#Do NOT change the port unless you are 100% sure what you are doing. In most cases it is recommended to leave the default value
-port: 1550
+#Set true if you are using the Bungeecord/Velocity version
+#If true, the group system will be DISABLED in this configuration. Use the configuration of the proxy plugin to configure the groups!
+proxy-mode: false
 
 groups:
   #If no group is set via the permission plhide.group.<group> this will be used
@@ -70,7 +65,7 @@ groups:
     #If a player is in two groups, the group with the higher priority number is used
     #The minimum value is 0
     priority: 0
-    #The message if you type a blocked command | Enter none to disable | %player% will be replaced with the playername
+    #The message if you type a blocked command | Enter none to disable | %player% will be replaced with the player-name
     blocked-command-message: "Unknown command. Type \"/help\" for help."
     #Here you can add other groups: The commands and tab completion from the "inherited groups" will be added to this group
     #Read more here https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Group#inheritance
