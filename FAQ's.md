@@ -116,4 +116,4 @@ Bungee/Velocity:
 Now give the user the permissions plhide.group.bypass, plhide.blacklist.* and plhide.unblock-plugin-named-commands.*
 
 ## **Tab completion with a space**
-If you have a tab completion where you can tab `command arg` as **one entry**, you cannot list the entry the default way. Instead you need to list it like `commands%space%arg`
+If your tabcompletion includes a space, like `command arg` and it's intended as a single tab-completion entry, you should represent it as `command%space%arg`. However, please note that this rule doesn't apply to commands with subcommands or arguments that have separate tab completions.
