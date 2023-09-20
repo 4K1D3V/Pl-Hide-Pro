@@ -13,7 +13,7 @@
 * [Commands and Permissions](Commands-and-Permissions)
 * [Lists](Lists)
 * [FAQ's](FAQ's)
-  * [Give access to another/multiple groups](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-how-do-i-give-a-group-access-to-anothermultiple-groups)
+  * [Give access to another/multiple groups](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-give-access-to-anothermultiple-groups)
   * [Groupmode meaning](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#q-what-is-a-group-mode)
   * [How to set the Groupmode](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-set-the-group-mode)
   * [How to block all subargs of a command in whitelist mode?](https://github.com/Nononitas/Plugin-Hide-Pro/wiki/FAQ's#how-to-block-all-subargs-of-a-command-in-whitelist-mode)
