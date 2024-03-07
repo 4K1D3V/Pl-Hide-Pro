@@ -15,7 +15,7 @@ Install the following plugins on the Proxy:
 * A permission manager (Luckperms)
 
 Install `Pl-Hide-Pro on the Paper server as well`. 
- * **Enable** the `'proxy-mode'` option in the plugin configuration on the Paper server.
+ * **Enable** the `'proxy-mode'` option in the Pl-Hide-Pro configuration on the Paper server.
  * Restart the Paper server
 
 # More Information at the right side of this page.
