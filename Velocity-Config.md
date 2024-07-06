@@ -10,11 +10,11 @@ version: 5
 debug: false
 
 #Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass.pl-message will see the real plugins
-/pl-message: 'Plugins (0):'
+/pl-message: 'null:'
 
 #Changes the server brand in the upper left of the f3 debug screen
 #Use %server% to display the server name of the mc server.
-f3-server-brand: '&3Plugin&7-&3Hide&7-&6Pro'
+f3-server-brand: '&3A Minecraft Server'
 replace-f3-server-brand: true
 
 #Stay on the newest version to get better features!
